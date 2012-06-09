@@ -63,6 +63,9 @@ ftypes.forEach(function(s){
 reg = reg.slice(0, reg.length-1);
 reg += '/';
 
+app.get('/', function(req, res){
+	res.render('u/fanyu/README.html');
+});
 
 app.all(new RegExp(reg), function(req, res){
 

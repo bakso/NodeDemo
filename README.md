@@ -7,7 +7,7 @@
 
 ---------
 
-### 与PHP Demo环境比较
+### 与PHP Demo环境对比
 **NodeDemo**与PHP Demo环境相似，甚至使用同一个SVN仓库和`DocumentRoot`，最大程度地还原原有的开发方式，这里只列出不同：
 
 * NodeDemo环境的动态页面文件扩展名可以是`.html, .htm, .node, .json`——但不能是`.php`
