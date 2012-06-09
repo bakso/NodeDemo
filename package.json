@@ -1,0 +1,26 @@
+{
+  "author": "fanyu.xhy <fanyu.xhy@tmall.com> (http://x1989.com)",
+  "name": "NodeDemo",
+  "description": "NodeDemo Env",
+  "version": "0.9.0",
+  "repository": {
+    "url": ""
+  },
+  "main": "index.js",
+  "dependencies": {
+    "jschardet":"",
+    "iconv-lite": "",
+    "underscore": "",
+    "jqtpl":"",
+    "express": ">=2.5.1",
+    "jqtpl": "",
+    "eventproxy": "",
+    "underscore": "",
+    "http-proxy": ""
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}

@@ -1,0 +1,2694 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+info using npm@1.1.12
+info using node@v0.6.14
+verbose config file /Users/xhowhy/.npmrc
+verbose config file /usr/local/etc/npmrc
+verbose config file /usr/local/lib/node_modules/npm/npmrc
+verbose caching /Users/xhowhy/project/NodeDemo/express/package.json
+verbose loadDefaults express@2.5.9
+verbose readDependencies: using package.json deps
+verbose where, deps [ '/Users/xhowhy/project/NodeDemo/express',
+verbose where, deps   [ 'connect',
+verbose where, deps     'mime',
+verbose where, deps     'qs',
+verbose where, deps     'mkdirp',
+verbose where, deps     'connect-form',
+verbose where, deps     'ejs',
+verbose where, deps     'expresso',
+verbose where, deps     'hamljs',
+verbose where, deps     'jade',
+verbose where, deps     'stylus',
+verbose where, deps     'should',
+verbose where, deps     'express-messages',
+verbose where, deps     'node-markdown',
+verbose where, deps     'connect-redis' ] ]
+verbose from cache /Users/xhowhy/project/NodeDemo/express/package.json
+info preinstall express@2.5.9
+verbose from cache /Users/xhowhy/project/NodeDemo/express/package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'connect@1.x', null ]
+silly cache add: name, spec, args [ undefined, 'connect@1.x', [ 'connect@1.x', null ] ]
+verbose parsed url { pathname: 'connect@1.x',
+verbose parsed url   path: 'connect@1.x',
+verbose parsed url   href: 'connect@1.x' }
+silly cache add: name, spec, args [ 'connect', '1.x', [ 'connect', '1.x' ] ]
+verbose parsed url { pathname: '1.x', path: '1.x', href: '1.x' }
+verbose addNamed [ 'connect', '1.x' ]
+verbose addNamed [ null, '>=1.0.0- <2.0.0-' ]
+silly name, range, hasData [ 'connect', '>=1.0.0- <2.0.0-', false ]
+verbose cache add [ 'mime@1.2.4', null ]
+silly cache add: name, spec, args [ undefined, 'mime@1.2.4', [ 'mime@1.2.4', null ] ]
+verbose parsed url { pathname: 'mime@1.2.4',
+verbose parsed url   path: 'mime@1.2.4',
+verbose parsed url   href: 'mime@1.2.4' }
+silly cache add: name, spec, args [ 'mime', '1.2.4', [ 'mime', '1.2.4' ] ]
+verbose parsed url { pathname: '1.2.4', path: '1.2.4', href: '1.2.4' }
+verbose addNamed [ 'mime', '1.2.4' ]
+verbose addNamed [ '1.2.4', '1.2.4' ]
+verbose cache add [ 'qs@0.4.x', null ]
+silly cache add: name, spec, args [ undefined, 'qs@0.4.x', [ 'qs@0.4.x', null ] ]
+verbose parsed url { pathname: 'qs@0.4.x', path: 'qs@0.4.x', href: 'qs@0.4.x' }
+silly cache add: name, spec, args [ 'qs', '0.4.x', [ 'qs', '0.4.x' ] ]
+verbose parsed url { pathname: '0.4.x', path: '0.4.x', href: '0.4.x' }
+verbose addNamed [ 'qs', '0.4.x' ]
+verbose addNamed [ null, '>=0.4.0- <0.5.0-' ]
+silly name, range, hasData [ 'qs', '>=0.4.0- <0.5.0-', false ]
+verbose cache add [ 'mkdirp@0.3.0', null ]
+silly cache add: name, spec, args [ undefined, 'mkdirp@0.3.0', [ 'mkdirp@0.3.0', null ] ]
+verbose parsed url { pathname: 'mkdirp@0.3.0',
+verbose parsed url   path: 'mkdirp@0.3.0',
+verbose parsed url   href: 'mkdirp@0.3.0' }
+silly cache add: name, spec, args [ 'mkdirp', '0.3.0', [ 'mkdirp', '0.3.0' ] ]
+verbose parsed url { pathname: '0.3.0', path: '0.3.0', href: '0.3.0' }
+verbose addNamed [ 'mkdirp', '0.3.0' ]
+verbose addNamed [ '0.3.0', '0.3.0' ]
+verbose cache add [ 'connect-form@0.2.1', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'connect-form@0.2.1',
+silly cache add: name, spec, args   [ 'connect-form@0.2.1', null ] ]
+verbose parsed url { pathname: 'connect-form@0.2.1',
+verbose parsed url   path: 'connect-form@0.2.1',
+verbose parsed url   href: 'connect-form@0.2.1' }
+silly cache add: name, spec, args [ 'connect-form', '0.2.1', [ 'connect-form', '0.2.1' ] ]
+verbose parsed url { pathname: '0.2.1', path: '0.2.1', href: '0.2.1' }
+verbose addNamed [ 'connect-form', '0.2.1' ]
+verbose addNamed [ '0.2.1', '0.2.1' ]
+verbose cache add [ 'ejs@0.4.2', null ]
+silly cache add: name, spec, args [ undefined, 'ejs@0.4.2', [ 'ejs@0.4.2', null ] ]
+verbose parsed url { pathname: 'ejs@0.4.2', path: 'ejs@0.4.2', href: 'ejs@0.4.2' }
+silly cache add: name, spec, args [ 'ejs', '0.4.2', [ 'ejs', '0.4.2' ] ]
+verbose parsed url { pathname: '0.4.2', path: '0.4.2', href: '0.4.2' }
+verbose addNamed [ 'ejs', '0.4.2' ]
+verbose addNamed [ '0.4.2', '0.4.2' ]
+verbose cache add [ 'expresso@0.9.2', null ]
+silly cache add: name, spec, args [ undefined, 'expresso@0.9.2', [ 'expresso@0.9.2', null ] ]
+verbose parsed url { pathname: 'expresso@0.9.2',
+verbose parsed url   path: 'expresso@0.9.2',
+verbose parsed url   href: 'expresso@0.9.2' }
+silly cache add: name, spec, args [ 'expresso', '0.9.2', [ 'expresso', '0.9.2' ] ]
+verbose parsed url { pathname: '0.9.2', path: '0.9.2', href: '0.9.2' }
+verbose addNamed [ 'expresso', '0.9.2' ]
+verbose addNamed [ '0.9.2', '0.9.2' ]
+verbose raw, before any munging connect-form/0.2.1
+verbose url resolving [ 'http://registry.npmjs.vitecho.com/', './connect-form/0.2.1' ]
+verbose url resolved http://registry.npmjs.vitecho.com/connect-form/0.2.1
+http GET http://registry.npmjs.vitecho.com/connect-form/0.2.1
+verbose raw, before any munging ejs/0.4.2
+verbose url resolving [ 'http://registry.npmjs.vitecho.com/', './ejs/0.4.2' ]
+verbose url resolved http://registry.npmjs.vitecho.com/ejs/0.4.2
+http GET http://registry.npmjs.vitecho.com/ejs/0.4.2
+verbose raw, before any munging expresso/0.9.2
+verbose url resolving [ 'http://registry.npmjs.vitecho.com/', './expresso/0.9.2' ]
+verbose url resolved http://registry.npmjs.vitecho.com/expresso/0.9.2
+http GET http://registry.npmjs.vitecho.com/expresso/0.9.2
+verbose cache add [ 'hamljs@0.6.x', null ]
+silly cache add: name, spec, args [ undefined, 'hamljs@0.6.x', [ 'hamljs@0.6.x', null ] ]
+verbose parsed url { pathname: 'hamljs@0.6.x',
+verbose parsed url   path: 'hamljs@0.6.x',
+verbose parsed url   href: 'hamljs@0.6.x' }
+silly cache add: name, spec, args [ 'hamljs', '0.6.x', [ 'hamljs', '0.6.x' ] ]
+verbose parsed url { pathname: '0.6.x', path: '0.6.x', href: '0.6.x' }
+verbose addNamed [ 'hamljs', '0.6.x' ]
+verbose addNamed [ null, '>=0.6.0- <0.7.0-' ]
+silly name, range, hasData [ 'hamljs', '>=0.6.0- <0.7.0-', false ]
+verbose cache add [ 'jade@0.16.2', null ]
+silly cache add: name, spec, args [ undefined, 'jade@0.16.2', [ 'jade@0.16.2', null ] ]
+verbose parsed url { pathname: 'jade@0.16.2',
+verbose parsed url   path: 'jade@0.16.2',
+verbose parsed url   href: 'jade@0.16.2' }
+silly cache add: name, spec, args [ 'jade', '0.16.2', [ 'jade', '0.16.2' ] ]
+verbose parsed url { pathname: '0.16.2', path: '0.16.2', href: '0.16.2' }
+verbose addNamed [ 'jade', '0.16.2' ]
+verbose addNamed [ '0.16.2', '0.16.2' ]
+verbose cache add [ 'stylus@0.13.0', null ]
+silly cache add: name, spec, args [ undefined, 'stylus@0.13.0', [ 'stylus@0.13.0', null ] ]
+verbose parsed url { pathname: 'stylus@0.13.0',
+verbose parsed url   path: 'stylus@0.13.0',
+verbose parsed url   href: 'stylus@0.13.0' }
+silly cache add: name, spec, args [ 'stylus', '0.13.0', [ 'stylus', '0.13.0' ] ]
+verbose parsed url { pathname: '0.13.0', path: '0.13.0', href: '0.13.0' }
+verbose addNamed [ 'stylus', '0.13.0' ]
+verbose addNamed [ '0.13.0', '0.13.0' ]
+verbose cache add [ 'should@0.3.2', null ]
+silly cache add: name, spec, args [ undefined, 'should@0.3.2', [ 'should@0.3.2', null ] ]
+verbose parsed url { pathname: 'should@0.3.2',
+verbose parsed url   path: 'should@0.3.2',
+verbose parsed url   href: 'should@0.3.2' }
+silly cache add: name, spec, args [ 'should', '0.3.2', [ 'should', '0.3.2' ] ]
+verbose parsed url { pathname: '0.3.2', path: '0.3.2', href: '0.3.2' }
+verbose addNamed [ 'should', '0.3.2' ]
+verbose addNamed [ '0.3.2', '0.3.2' ]
+verbose cache add [ 'express-messages@0.0.2', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'express-messages@0.0.2',
+silly cache add: name, spec, args   [ 'express-messages@0.0.2', null ] ]
+verbose parsed url { pathname: 'express-messages@0.0.2',
+verbose parsed url   path: 'express-messages@0.0.2',
+verbose parsed url   href: 'express-messages@0.0.2' }
+silly cache add: name, spec, args [ 'express-messages', '0.0.2', [ 'express-messages', '0.0.2' ] ]
+verbose parsed url { pathname: '0.0.2', path: '0.0.2', href: '0.0.2' }
+verbose addNamed [ 'express-messages', '0.0.2' ]
+verbose addNamed [ '0.0.2', '0.0.2' ]
+verbose cache add [ 'node-markdown@>= 0.0.1', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'node-markdown@>= 0.0.1',
+silly cache add: name, spec, args   [ 'node-markdown@>= 0.0.1', null ] ]
+verbose parsed url { pathname: 'node-markdown@',
+verbose parsed url   path: 'node-markdown@',
+verbose parsed url   href: 'node-markdown@' }
+silly cache add: name, spec, args [ 'node-markdown', '>= 0.0.1', [ 'node-markdown', '>= 0.0.1' ] ]
+verbose parsed url { pathname: '=', path: '=', href: '=' }
+verbose addNamed [ 'node-markdown', '>= 0.0.1' ]
+verbose addNamed [ null, '>=0.0.1' ]
+silly name, range, hasData [ 'node-markdown', '>=0.0.1', false ]
+verbose cache add [ 'connect-redis@>= 0.0.1', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'connect-redis@>= 0.0.1',
+silly cache add: name, spec, args   [ 'connect-redis@>= 0.0.1', null ] ]
+verbose parsed url { pathname: 'connect-redis@',
+verbose parsed url   path: 'connect-redis@',
+verbose parsed url   href: 'connect-redis@' }
+silly cache add: name, spec, args [ 'connect-redis', '>= 0.0.1', [ 'connect-redis', '>= 0.0.1' ] ]
+verbose parsed url { pathname: '=', path: '=', href: '=' }
+verbose addNamed [ 'connect-redis', '>= 0.0.1' ]
+verbose addNamed [ null, '>=0.0.1' ]
+silly name, range, hasData [ 'connect-redis', '>=0.0.1', false ]
+verbose raw, before any munging hamljs
+verbose url resolving [ 'http://registry.npmjs.vitecho.com/', './hamljs' ]
+verbose url resolved http://registry.npmjs.vitecho.com/hamljs
+http GET http://registry.npmjs.vitecho.com/hamljs
+verbose raw, before any munging jade/0.16.2
+verbose url resolving [ 'http://registry.npmjs.vitecho.com/', './jade/0.16.2' ]
+verbose url resolved http://registry.npmjs.vitecho.com/jade/0.16.2
+http GET http://registry.npmjs.vitecho.com/jade/0.16.2
+verbose raw, before any munging stylus/0.13.0
+verbose url resolving [ 'http://registry.npmjs.vitecho.com/', './stylus/0.13.0' ]
+verbose url resolved http://registry.npmjs.vitecho.com/stylus/0.13.0
+http GET http://registry.npmjs.vitecho.com/stylus/0.13.0
+verbose raw, before any munging should/0.3.2
+verbose url resolving [ 'http://registry.npmjs.vitecho.com/', './should/0.3.2' ]
+verbose url resolved http://registry.npmjs.vitecho.com/should/0.3.2
+http GET http://registry.npmjs.vitecho.com/should/0.3.2
+verbose raw, before any munging express-messages/0.0.2
+verbose url resolving [ 'http://registry.npmjs.vitecho.com/',
+verbose url resolving   './express-messages/0.0.2' ]
+verbose url resolved http://registry.npmjs.vitecho.com/express-messages/0.0.2
+http GET http://registry.npmjs.vitecho.com/express-messages/0.0.2
+verbose raw, before any munging node-markdown
+verbose url resolving [ 'http://registry.npmjs.vitecho.com/', './node-markdown' ]
+verbose url resolved http://registry.npmjs.vitecho.com/node-markdown
+http GET http://registry.npmjs.vitecho.com/node-markdown
+verbose raw, before any munging mime/1.2.4
+verbose url resolving [ 'http://registry.npmjs.vitecho.com/', './mime/1.2.4' ]
+verbose url resolved http://registry.npmjs.vitecho.com/mime/1.2.4
+verbose etag "1EQE1C8714IML85RHTS3MZ113"
+http GET http://registry.npmjs.vitecho.com/mime/1.2.4
+verbose raw, before any munging mkdirp/0.3.0
+verbose url resolving [ 'http://registry.npmjs.vitecho.com/', './mkdirp/0.3.0' ]
+verbose url resolved http://registry.npmjs.vitecho.com/mkdirp/0.3.0
+verbose etag "CPMF1ESDOJC223530UDFU34SV"
+http GET http://registry.npmjs.vitecho.com/mkdirp/0.3.0
+verbose raw, before any munging connect-redis
+verbose url resolving [ 'http://registry.npmjs.vitecho.com/', './connect-redis' ]
+verbose url resolved http://registry.npmjs.vitecho.com/connect-redis
+verbose etag "BG0TZ1322L6F7CBVFXD1EL7HQ"
+http GET http://registry.npmjs.vitecho.com/connect-redis
+http 200 http://registry.npmjs.vitecho.com/hamljs
+silly get cb [ 200,
+silly get cb   { server: 'nginx/1.0.14',
+silly get cb     date: 'Sat, 09 Jun 2012 15:08:54 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     vary: 'Accept',
+silly get cb     etag: '"6VJ5ZTGKML5M69O3S21E9TWQA"',
+silly get cb     'content-length': '3814' } ]
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/.npm/hamljs'
+verbose mkdir done: /Users/xhowhy/.npm/hamljs 755
+silly name, range, hasData 2 [ 'hamljs', '>=0.6.0- <0.7.0-', true ]
+silly versions [ 'hamljs', [ '0.4.5', '0.6.0' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.24-darwin-x64-11.2.0',
+verbose bin dist   { shasum: '7720be00b75450b9ef6c8e7eb060db6383234598',
+verbose bin dist     tarball: 'http://registry.npmjs.vitecho.com/hamljs/-/hamljs-0.6.0.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.vitecho.com/hamljs/-/hamljs-0.6.0.tgz',
+verbose addRemoteTarball   '7720be00b75450b9ef6c8e7eb060db6383234598' ]
+verbose mkdir (expected) error ENOENT, stat '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814'
+verbose mkdir (expected) error ENOENT, stat '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534814-0.8696337626315653'
+verbose mkdir done: /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534814-0.8696337626315653 755
+verbose fetch to /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534814-0.8696337626315653/tmp.tgz
+http GET http://registry.npmjs.vitecho.com/hamljs/-/hamljs-0.6.0.tgz
+http 200 http://registry.npmjs.vitecho.com/connect-form/0.2.1
+silly get cb [ 200,
+silly get cb   { server: 'nginx/1.0.14',
+silly get cb     date: 'Sat, 09 Jun 2012 15:08:54 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     vary: 'Accept',
+silly get cb     etag: '"BGXAY06OW1LQ6J58X5BBDLOJP"',
+silly get cb     'content-length': '581' } ]
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/.npm/connect-form'
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/.npm/connect-form/0.2.1'
+verbose mkdir done: /Users/xhowhy/.npm/connect-form/0.2.1 755
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.24-darwin-x64-11.2.0',
+verbose bin dist   { shasum: '227fd460bcd136e3631f8875c6d8ca655b89a639',
+verbose bin dist     tarball: 'http://registry.npmjs.vitecho.com/connect-form/-/connect-form-0.2.1.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.vitecho.com/connect-form/-/connect-form-0.2.1.tgz',
+verbose addRemoteTarball   '227fd460bcd136e3631f8875c6d8ca655b89a639' ]
+verbose mkdir (expected) error ENOENT, stat '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534828-0.9197552637197077'
+verbose mkdir done: /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534828-0.9197552637197077 755
+verbose fetch to /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534828-0.9197552637197077/tmp.tgz
+http GET http://registry.npmjs.vitecho.com/connect-form/-/connect-form-0.2.1.tgz
+http 200 http://registry.npmjs.vitecho.com/jade/0.16.2
+silly get cb [ 200,
+silly get cb   { server: 'nginx/1.0.14',
+silly get cb     date: 'Sat, 09 Jun 2012 15:08:54 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     vary: 'Accept',
+silly get cb     etag: '"EUYPP9C1AIP5MWGNYDBEDGU0O"',
+silly get cb     'content-length': '1027' } ]
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/.npm/jade/0.16.2'
+verbose mkdir done: /Users/xhowhy/.npm/jade/0.16.2 755
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.24-darwin-x64-11.2.0',
+verbose bin dist   { shasum: '514de77b161b9101a9a65eb4f1553fcf395c618a',
+verbose bin dist     tarball: 'http://registry.npmjs.vitecho.com/jade/-/jade-0.16.2.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.vitecho.com/jade/-/jade-0.16.2.tgz',
+verbose addRemoteTarball   '514de77b161b9101a9a65eb4f1553fcf395c618a' ]
+verbose mkdir (expected) error ENOENT, stat '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534841-0.8093291730619967'
+verbose mkdir done: /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534841-0.8093291730619967 755
+verbose fetch to /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534841-0.8093291730619967/tmp.tgz
+http GET http://registry.npmjs.vitecho.com/jade/-/jade-0.16.2.tgz
+http 200 http://registry.npmjs.vitecho.com/expresso/0.9.2
+silly get cb [ 200,
+silly get cb   { server: 'nginx/1.0.14',
+silly get cb     date: 'Sat, 09 Jun 2012 15:08:54 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     vary: 'Accept',
+silly get cb     etag: '"58Y4CC1LVEW6XM4HY5CBFZPZW"',
+silly get cb     'content-length': '978' } ]
+http 200 http://registry.npmjs.vitecho.com/ejs/0.4.2
+silly get cb [ 200,
+silly get cb   { server: 'nginx/1.0.14',
+silly get cb     date: 'Sat, 09 Jun 2012 15:08:54 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     vary: 'Accept',
+silly get cb     etag: '"39XJ8T6SEU9P2ZK631U4I807"',
+silly get cb     'content-length': '533' } ]
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/.npm/expresso'
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/.npm/ejs/0.4.2'
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/.npm/expresso/0.9.2'
+verbose mkdir done: /Users/xhowhy/.npm/ejs/0.4.2 755
+verbose mkdir done: /Users/xhowhy/.npm/expresso/0.9.2 755
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.24-darwin-x64-11.2.0',
+verbose bin dist   { shasum: '6f58faa54fd0fd097b74e31c4009ec16138572a1',
+verbose bin dist     tarball: 'http://registry.npmjs.vitecho.com/ejs/-/ejs-0.4.2.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.vitecho.com/ejs/-/ejs-0.4.2.tgz',
+verbose addRemoteTarball   '6f58faa54fd0fd097b74e31c4009ec16138572a1' ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.24-darwin-x64-11.2.0',
+verbose bin dist   { shasum: '177b260908acaebe45ee16ddf74495a3f55862e8',
+verbose bin dist     tarball: 'http://registry.npmjs.vitecho.com/expresso/-/expresso-0.9.2.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.vitecho.com/expresso/-/expresso-0.9.2.tgz',
+verbose addRemoteTarball   '177b260908acaebe45ee16ddf74495a3f55862e8' ]
+verbose mkdir (expected) error ENOENT, stat '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534853-0.626561809098348'
+verbose mkdir (expected) error ENOENT, stat '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534854-0.02395198424346745'
+verbose mkdir done: /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534853-0.626561809098348 755
+verbose mkdir done: /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534854-0.02395198424346745 755
+verbose fetch to /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534853-0.626561809098348/tmp.tgz
+verbose fetch to /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534854-0.02395198424346745/tmp.tgz
+http GET http://registry.npmjs.vitecho.com/ejs/-/ejs-0.4.2.tgz
+http GET http://registry.npmjs.vitecho.com/expresso/-/expresso-0.9.2.tgz
+http 200 http://registry.npmjs.vitecho.com/stylus/0.13.0
+silly get cb [ 200,
+silly get cb   { server: 'nginx/1.0.14',
+silly get cb     date: 'Sat, 09 Jun 2012 15:08:54 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     vary: 'Accept',
+silly get cb     etag: '"AXNGENHOVL5CIZGB0WAWABN24"',
+silly get cb     'content-length': '740' } ]
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/.npm/stylus/0.13.0'
+verbose mkdir done: /Users/xhowhy/.npm/stylus/0.13.0 755
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.24-darwin-x64-11.2.0',
+verbose bin dist   { shasum: '37b69909544a0aba26a2914cf18fc6d80988c7b8',
+verbose bin dist     tarball: 'http://registry.npmjs.vitecho.com/stylus/-/stylus-0.13.0.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.vitecho.com/stylus/-/stylus-0.13.0.tgz',
+verbose addRemoteTarball   '37b69909544a0aba26a2914cf18fc6d80988c7b8' ]
+verbose mkdir (expected) error ENOENT, stat '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534882-0.09171787626110017'
+verbose mkdir done: /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534882-0.09171787626110017 755
+verbose fetch to /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534882-0.09171787626110017/tmp.tgz
+http GET http://registry.npmjs.vitecho.com/stylus/-/stylus-0.13.0.tgz
+http 200 http://registry.npmjs.vitecho.com/should/0.3.2
+silly get cb [ 200,
+silly get cb   { server: 'nginx/1.0.14',
+silly get cb     date: 'Sat, 09 Jun 2012 15:08:54 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     vary: 'Accept',
+silly get cb     etag: '"3N45SAZI76OZCQ1UHEPXHSRKX"',
+silly get cb     'content-length': '873' } ]
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/.npm/should/0.3.2'
+verbose mkdir done: /Users/xhowhy/.npm/should/0.3.2 755
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.24-darwin-x64-11.2.0',
+verbose bin dist   { shasum: '6fff9bdc8bebf422ad8f54b6ef708b0dba5116af',
+verbose bin dist     tarball: 'http://registry.npmjs.vitecho.com/should/-/should-0.3.2.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.vitecho.com/should/-/should-0.3.2.tgz',
+verbose addRemoteTarball   '6fff9bdc8bebf422ad8f54b6ef708b0dba5116af' ]
+verbose mkdir (expected) error ENOENT, stat '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534889-0.04101482545956969'
+verbose mkdir done: /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534889-0.04101482545956969 755
+verbose fetch to /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534889-0.04101482545956969/tmp.tgz
+http GET http://registry.npmjs.vitecho.com/should/-/should-0.3.2.tgz
+http 200 http://registry.npmjs.vitecho.com/express-messages/0.0.2
+silly get cb [ 200,
+silly get cb   { server: 'nginx/1.0.14',
+silly get cb     date: 'Sat, 09 Jun 2012 15:08:54 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     vary: 'Accept',
+silly get cb     etag: '"9YQZRS11DC9Y6QZSETQA9W0S"',
+silly get cb     'content-length': '546' } ]
+http 304 http://registry.npmjs.vitecho.com/mime/1.2.4
+silly get cb [ 304,
+silly get cb   { server: 'nginx/1.0.14',
+silly get cb     date: 'Sat, 09 Jun 2012 15:08:54 GMT',
+silly get cb     etag: '"1EQE1C8714IML85RHTS3MZ113"',
+silly get cb     'content-length': '0' } ]
+verbose etag mime/1.2.4 from cache
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/.npm/express-messages'
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/.npm/express-messages/0.0.2'
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.24-darwin-x64-11.2.0',
+verbose bin dist   { shasum: '11b5fdaf29c2509255176b80ad520294f5de92b7',
+verbose bin dist     tarball: 'http://registry.npmjs.vitecho.com/mime/-/mime-1.2.4.tgz' } ]
+verbose mkdir done: /Users/xhowhy/.npm/express-messages/0.0.2 755
+verbose caching /Users/xhowhy/.npm/mime/1.2.4/package/package.json
+verbose loadDefaults mime@1.2.4
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.24-darwin-x64-11.2.0',
+verbose bin dist   { shasum: '9f3116edb69b32f1806392d6fb5c21b0b1df8bcb',
+verbose bin dist     tarball: 'http://registry.npmjs.vitecho.com/express-messages/-/express-messages-0.0.2.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.vitecho.com/express-messages/-/express-messages-0.0.2.tgz',
+verbose addRemoteTarball   '9f3116edb69b32f1806392d6fb5c21b0b1df8bcb' ]
+verbose mkdir (expected) error ENOENT, stat '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534908-0.5282448607031256'
+verbose mkdir done: /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534908-0.5282448607031256 755
+verbose fetch to /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534908-0.5282448607031256/tmp.tgz
+http GET http://registry.npmjs.vitecho.com/express-messages/-/express-messages-0.0.2.tgz
+http 200 http://registry.npmjs.vitecho.com/node-markdown
+silly get cb [ 200,
+silly get cb   { server: 'nginx/1.0.14',
+silly get cb     date: 'Sat, 09 Jun 2012 15:08:54 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     vary: 'Accept',
+silly get cb     etag: '"A7MV5UPYW06EZEN5WJNTW9NRJ"',
+silly get cb     'content-length': '1005' } ]
+http 304 http://registry.npmjs.vitecho.com/mkdirp/0.3.0
+silly get cb [ 304,
+silly get cb   { server: 'nginx/1.0.14',
+silly get cb     date: 'Sat, 09 Jun 2012 15:08:54 GMT',
+silly get cb     etag: '"CPMF1ESDOJC223530UDFU34SV"',
+silly get cb     'content-length': '0' } ]
+verbose etag mkdirp/0.3.0 from cache
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/.npm/node-markdown'
+verbose mkdir done: /Users/xhowhy/.npm/node-markdown 755
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.24-darwin-x64-11.2.0',
+verbose bin dist   { shasum: '1bbf5ab1ba827af23575143490426455f481fe1e',
+verbose bin dist     tarball: 'http://registry.npmjs.vitecho.com/mkdirp/-/mkdirp-0.3.0.tgz' } ]
+silly name, range, hasData 2 [ 'node-markdown', '>=0.0.1', true ]
+silly versions [ 'node-markdown', [ '0.1.0' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.24-darwin-x64-11.2.0',
+verbose bin dist   { tarball: 'http://registry.npmjs.vitecho.com/node-markdown/-/node-markdown-0.1.0.tgz' } ]
+verbose caching /Users/xhowhy/.npm/mkdirp/0.3.0/package/package.json
+verbose loadDefaults mkdirp@0.3.0
+verbose addRemoteTarball [ 'http://registry.npmjs.vitecho.com/node-markdown/-/node-markdown-0.1.0.tgz',
+verbose addRemoteTarball   undefined ]
+verbose mkdir (expected) error ENOENT, stat '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534924-0.13850570749491453'
+verbose mkdir done: /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534924-0.13850570749491453 755
+verbose fetch to /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534924-0.13850570749491453/tmp.tgz
+http GET http://registry.npmjs.vitecho.com/node-markdown/-/node-markdown-0.1.0.tgz
+http 304 http://registry.npmjs.vitecho.com/connect-redis
+silly get cb [ 304,
+silly get cb   { server: 'nginx/1.0.14',
+silly get cb     date: 'Sat, 09 Jun 2012 15:08:54 GMT',
+silly get cb     etag: '"BG0TZ1322L6F7CBVFXD1EL7HQ"',
+silly get cb     'content-length': '0' } ]
+verbose etag connect-redis from cache
+silly name, range, hasData 2 [ 'connect-redis', '>=0.0.1', true ]
+silly versions [ 'connect-redis',
+silly versions   [ '0.0.1',
+silly versions     '0.0.2',
+silly versions     '0.1.0',
+silly versions     '0.1.1',
+silly versions     '0.1.2',
+silly versions     '0.1.3',
+silly versions     '0.2.0',
+silly versions     '0.2.1',
+silly versions     '0.2.2',
+silly versions     '0.2.3',
+silly versions     '1.0.0',
+silly versions     '1.0.1',
+silly versions     '1.0.2',
+silly versions     '1.0.3',
+silly versions     '1.0.4',
+silly versions     '1.0.5',
+silly versions     '1.0.6',
+silly versions     '1.0.7',
+silly versions     '1.1.0',
+silly versions     '1.2.0',
+silly versions     '1.3.0' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.24-darwin-x64-11.2.0',
+verbose bin dist   { shasum: '3b200583b27f161bee878a9761b3ea69877f157d',
+verbose bin dist     tarball: 'http://registry.npmjs.vitecho.com/connect-redis/-/connect-redis-1.3.0.tgz' } ]
+verbose caching /Users/xhowhy/.npm/connect-redis/1.3.0/package/package.json
+verbose loadDefaults connect-redis@1.3.0
+http 200 http://registry.npmjs.vitecho.com/hamljs/-/hamljs-0.6.0.tgz
+verbose raw, before any munging qs
+verbose url resolving [ 'http://registry.npmjs.vitecho.com/', './qs' ]
+verbose url resolved http://registry.npmjs.vitecho.com/qs
+verbose etag "CC6SZ1JSLR7QRA6H8XUML3UZX"
+http GET http://registry.npmjs.vitecho.com/qs
+verbose raw, before any munging connect
+verbose url resolving [ 'http://registry.npmjs.vitecho.com/', './connect' ]
+verbose url resolved http://registry.npmjs.vitecho.com/connect
+verbose etag "CO0A97UJ4S0NQ16NB6RO52JIJ"
+http GET http://registry.npmjs.vitecho.com/connect
+http 200 http://registry.npmjs.vitecho.com/connect-form/-/connect-form-0.2.1.tgz
+http 200 http://registry.npmjs.vitecho.com/jade/-/jade-0.16.2.tgz
+http 200 http://registry.npmjs.vitecho.com/ejs/-/ejs-0.4.2.tgz
+silly updated sha bytes 30200
+info shasum 6f58faa54fd0fd097b74e31c4009ec16138572a1
+info shasum /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534853-0.626561809098348/tmp.tgz
+verbose mkdir (expected) error ENOENT, stat '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534853-0.626561809098348/package'
+verbose mkdir done: /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534853-0.626561809098348/package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534853-0.626561809098348/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose gunzed /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534853-0.626561809098348/package
+verbose caching /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534853-0.626561809098348/package/package.json
+verbose loadDefaults ejs@0.4.2
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534853-0.626561809098348/package/package.json
+verbose pack /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534853-0.626561809098348/package
+verbose pack /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534853-0.626561809098348/package /Users/xhowhy/.npm/ejs/0.4.2/package.tgz
+silly makeList /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534853-0.626561809098348/package
+verbose caching /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534853-0.626561809098348/package/support/expresso/package.json
+verbose loadDefaults expresso@0.6.1
+silly dir, dirLen [ '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534853-0.626561809098348/package/support/expresso',
+silly dir, dirLen   124 ]
+silly dir, dirLen [ '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534853-0.626561809098348/package',
+silly dir, dirLen   107 ]
+verbose tarball /Users/xhowhy/.npm/ejs/0.4.2/package.tgz
+verbose parent /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534853-0.626561809098348/package
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/.npm/ejs/0.4.2/package'
+verbose mkdir done: /Users/xhowhy/.npm/ejs/0.4.2/package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/xhowhy/.npm/ejs/0.4.2/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose gunzed /Users/xhowhy/.npm/ejs/0.4.2/package
+verbose caching /Users/xhowhy/.npm/ejs/0.4.2/package/package.json
+verbose loadDefaults ejs@0.4.2
+silly updated sha bytes 29874
+info shasum abf4f143f3cee467107b9b2638dd3a209c868fc9
+info shasum /Users/xhowhy/.npm/ejs/0.4.2/package.tgz
+verbose from cache /Users/xhowhy/.npm/ejs/0.4.2/package/package.json
+verbose chmod /Users/xhowhy/.npm/ejs/0.4.2/package.tgz 644
+verbose chown [ '/Users/xhowhy/.npm/ejs/0.4.2/package.tgz', 501, 20 ]
+http 200 http://registry.npmjs.vitecho.com/expresso/-/expresso-0.9.2.tgz
+silly updated sha bytes 40960
+silly updated sha bytes 20480
+info shasum 7720be00b75450b9ef6c8e7eb060db6383234598
+info shasum /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534814-0.8696337626315653/tmp.tgz
+verbose mkdir (expected) error ENOENT, stat '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534814-0.8696337626315653/package'
+verbose mkdir done: /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534814-0.8696337626315653/package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534814-0.8696337626315653/package
+silly gunzTarPerm modes [ '755', '644' ]
+WARN excluding symbolic link index.js -> lib/haml.js
+http 200 http://registry.npmjs.vitecho.com/stylus/-/stylus-0.13.0.tgz
+http 200 http://registry.npmjs.vitecho.com/should/-/should-0.3.2.tgz
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 5083
+info shasum 227fd460bcd136e3631f8875c6d8ca655b89a639
+info shasum /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534828-0.9197552637197077/tmp.tgz
+verbose mkdir (expected) error ENOENT, stat '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534828-0.9197552637197077/package'
+verbose mkdir done: /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534828-0.9197552637197077/package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534828-0.9197552637197077/package
+silly gunzTarPerm modes [ '755', '644' ]
+WARN excluding symbolic link index.js -> lib/connect-form.js
+http 200 http://registry.npmjs.vitecho.com/express-messages/-/express-messages-0.0.2.tgz
+silly updated sha bytes 2067
+info shasum 9f3116edb69b32f1806392d6fb5c21b0b1df8bcb
+info shasum /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534908-0.5282448607031256/tmp.tgz
+verbose mkdir (expected) error ENOENT, stat '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534908-0.5282448607031256/package'
+verbose mkdir done: /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534908-0.5282448607031256/package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534908-0.5282448607031256/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose gunzed /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534908-0.5282448607031256/package
+verbose caching /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534908-0.5282448607031256/package/package.json
+verbose loadDefaults express-messages@0.0.2
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534908-0.5282448607031256/package/package.json
+verbose pack /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534908-0.5282448607031256/package
+verbose pack /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534908-0.5282448607031256/package /Users/xhowhy/.npm/express-messages/0.0.2/package.tgz
+silly makeList /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534908-0.5282448607031256/package
+silly dir, dirLen [ '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534908-0.5282448607031256/package',
+silly dir, dirLen   108 ]
+verbose tarball /Users/xhowhy/.npm/express-messages/0.0.2/package.tgz
+verbose parent /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534908-0.5282448607031256/package
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/.npm/express-messages/0.0.2/package'
+verbose mkdir done: /Users/xhowhy/.npm/express-messages/0.0.2/package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/xhowhy/.npm/express-messages/0.0.2/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose gunzed /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534814-0.8696337626315653/package
+verbose caching /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534814-0.8696337626315653/package/package.json
+verbose loadDefaults hamljs@0.6.0
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534814-0.8696337626315653/package/package.json
+verbose pack /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534814-0.8696337626315653/package
+verbose pack /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534814-0.8696337626315653/package /Users/xhowhy/.npm/hamljs/0.6.0/package.tgz
+silly makeList /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534814-0.8696337626315653/package
+http 200 http://registry.npmjs.vitecho.com/node-markdown/-/node-markdown-0.1.0.tgz
+verbose caching /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534814-0.8696337626315653/package/benchmarks/haml-js/package.json
+verbose loadDefaults haml-js@0.2.4
+silly dir, dirLen [ '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534814-0.8696337626315653/package/benchmarks/haml-js',
+silly dir, dirLen   127 ]
+silly dir, dirLen [ '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534814-0.8696337626315653/package',
+silly dir, dirLen   108 ]
+verbose tarball /Users/xhowhy/.npm/hamljs/0.6.0/package.tgz
+verbose parent /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534814-0.8696337626315653/package
+verbose gunzed /Users/xhowhy/.npm/express-messages/0.0.2/package
+verbose caching /Users/xhowhy/.npm/express-messages/0.0.2/package/package.json
+verbose loadDefaults express-messages@0.0.2
+silly updated sha bytes 1988
+info shasum 762fa65291b9fe3bfee618b061112574898f00a7
+info shasum /Users/xhowhy/.npm/express-messages/0.0.2/package.tgz
+verbose from cache /Users/xhowhy/.npm/express-messages/0.0.2/package/package.json
+verbose chmod /Users/xhowhy/.npm/express-messages/0.0.2/package.tgz 644
+verbose chown [ '/Users/xhowhy/.npm/express-messages/0.0.2/package.tgz',
+verbose chown   501,
+verbose chown   20 ]
+silly updated sha bytes 8192
+silly updated sha bytes 1787
+info shasum 6fff9bdc8bebf422ad8f54b6ef708b0dba5116af
+info shasum /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534889-0.04101482545956969/tmp.tgz
+verbose mkdir (expected) error ENOENT, stat '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534889-0.04101482545956969/package'
+verbose mkdir done: /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534889-0.04101482545956969/package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534889-0.04101482545956969/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/.npm/hamljs/0.6.0/package'
+verbose mkdir done: /Users/xhowhy/.npm/hamljs/0.6.0/package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/xhowhy/.npm/hamljs/0.6.0/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose gunzed /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534889-0.04101482545956969/package
+verbose caching /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534889-0.04101482545956969/package/package.json
+verbose loadDefaults should@0.3.2
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534889-0.04101482545956969/package/package.json
+verbose pack /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534889-0.04101482545956969/package
+verbose pack /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534889-0.04101482545956969/package /Users/xhowhy/.npm/should/0.3.2/package.tgz
+silly makeList /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534889-0.04101482545956969/package
+silly dir, dirLen [ '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534889-0.04101482545956969/package',
+silly dir, dirLen   109 ]
+verbose tarball /Users/xhowhy/.npm/should/0.3.2/package.tgz
+verbose parent /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534889-0.04101482545956969/package
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/.npm/should/0.3.2/package'
+verbose mkdir done: /Users/xhowhy/.npm/should/0.3.2/package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/xhowhy/.npm/should/0.3.2/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose gunzed /Users/xhowhy/.npm/should/0.3.2/package
+verbose caching /Users/xhowhy/.npm/should/0.3.2/package/package.json
+verbose loadDefaults should@0.3.2
+silly updated sha bytes 10151
+info shasum 0c765f85d559bc4bce12cb36112c9995f33ec32f
+info shasum /Users/xhowhy/.npm/should/0.3.2/package.tgz
+verbose from cache /Users/xhowhy/.npm/should/0.3.2/package/package.json
+verbose chmod /Users/xhowhy/.npm/should/0.3.2/package.tgz 644
+verbose chown [ '/Users/xhowhy/.npm/should/0.3.2/package.tgz', 501, 20 ]
+verbose gunzed /Users/xhowhy/.npm/hamljs/0.6.0/package
+verbose caching /Users/xhowhy/.npm/hamljs/0.6.0/package/package.json
+verbose loadDefaults hamljs@0.6.0
+silly updated sha bytes 20454
+info shasum ec4033cefd7f9008aebf70a90d7b6279b5c22101
+info shasum /Users/xhowhy/.npm/hamljs/0.6.0/package.tgz
+verbose from cache /Users/xhowhy/.npm/hamljs/0.6.0/package/package.json
+verbose chmod /Users/xhowhy/.npm/hamljs/0.6.0/package.tgz 644
+verbose chown [ '/Users/xhowhy/.npm/hamljs/0.6.0/package.tgz', 501, 20 ]
+verbose gunzed /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534828-0.9197552637197077/package
+verbose caching /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534828-0.9197552637197077/package/package.json
+verbose loadDefaults connect-form@0.2.1
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534828-0.9197552637197077/package/package.json
+verbose pack /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534828-0.9197552637197077/package
+verbose pack /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534828-0.9197552637197077/package /Users/xhowhy/.npm/connect-form/0.2.1/package.tgz
+silly makeList /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534828-0.9197552637197077/package
+verbose caching /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534828-0.9197552637197077/package/support/connect/package.json
+verbose loadDefaults connect@0.2.1
+verbose caching /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534828-0.9197552637197077/package/support/expresso/package.json
+verbose loadDefaults expresso@0.4.0
+http 200 http://registry.npmjs.vitecho.com/qs
+silly get cb [ 200,
+silly get cb   { server: 'nginx/1.0.14',
+silly get cb     date: 'Sat, 09 Jun 2012 15:08:55 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     vary: 'Accept',
+silly get cb     etag: '"26YCN0U4P38FPW6QKXHPRJMY8"',
+silly get cb     'content-length': '13512' } ]
+silly dir, dirLen [ '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534828-0.9197552637197077/package/support/expresso',
+silly dir, dirLen   125 ]
+silly name, range, hasData 2 [ 'qs', '>=0.4.0- <0.5.0-', true ]
+silly versions [ 'qs',
+silly versions   [ '0.0.1',
+silly versions     '0.0.2',
+silly versions     '0.0.3',
+silly versions     '0.0.4',
+silly versions     '0.0.5',
+silly versions     '0.0.6',
+silly versions     '0.0.7',
+silly versions     '0.1.0',
+silly versions     '0.2.0',
+silly versions     '0.3.0',
+silly versions     '0.3.1',
+silly versions     '0.3.2',
+silly versions     '0.4.0',
+silly versions     '0.4.1',
+silly versions     '0.4.2',
+silly versions     '0.5.0' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.24-darwin-x64-11.2.0',
+verbose bin dist   { shasum: '3cac4c861e371a8c9c4770ac23cda8de639b8e5f',
+verbose bin dist     tarball: 'http://registry.npmjs.vitecho.com/qs/-/qs-0.4.2.tgz' } ]
+silly dir, dirLen [ '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534828-0.9197552637197077/package/support/connect',
+silly dir, dirLen   124 ]
+silly dir, dirLen [ '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534828-0.9197552637197077/package',
+silly dir, dirLen   108 ]
+verbose tarball /Users/xhowhy/.npm/connect-form/0.2.1/package.tgz
+verbose parent /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534828-0.9197552637197077/package
+verbose caching /Users/xhowhy/.npm/qs/0.4.2/package/package.json
+verbose loadDefaults qs@0.4.2
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/.npm/connect-form/0.2.1/package'
+verbose mkdir done: /Users/xhowhy/.npm/connect-form/0.2.1/package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/xhowhy/.npm/connect-form/0.2.1/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose gunzed /Users/xhowhy/.npm/connect-form/0.2.1/package
+verbose caching /Users/xhowhy/.npm/connect-form/0.2.1/package/package.json
+verbose loadDefaults connect-form@0.2.1
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 4684
+info shasum 61c0e0c041fe4c1ec54369a2aa6aaf3d870fdac5
+info shasum /Users/xhowhy/.npm/connect-form/0.2.1/package.tgz
+verbose from cache /Users/xhowhy/.npm/connect-form/0.2.1/package/package.json
+verbose chmod /Users/xhowhy/.npm/connect-form/0.2.1/package.tgz 644
+verbose chown [ '/Users/xhowhy/.npm/connect-form/0.2.1/package.tgz', 501, 20 ]
+silly updated sha bytes 40960
+silly updated sha bytes 7763
+info shasum 37b69909544a0aba26a2914cf18fc6d80988c7b8
+info shasum /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534882-0.09171787626110017/tmp.tgz
+verbose mkdir (expected) error ENOENT, stat '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534882-0.09171787626110017/package'
+verbose mkdir done: /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534882-0.09171787626110017/package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534882-0.09171787626110017/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose gunzed /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534882-0.09171787626110017/package
+verbose caching /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534882-0.09171787626110017/package/package.json
+verbose loadDefaults stylus@0.13.0
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534882-0.09171787626110017/package/package.json
+verbose pack /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534882-0.09171787626110017/package
+verbose pack /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534882-0.09171787626110017/package /Users/xhowhy/.npm/stylus/0.13.0/package.tgz
+silly makeList /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534882-0.09171787626110017/package
+silly dir, dirLen [ '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534882-0.09171787626110017/package',
+silly dir, dirLen   109 ]
+verbose tarball /Users/xhowhy/.npm/stylus/0.13.0/package.tgz
+verbose parent /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534882-0.09171787626110017/package
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/.npm/stylus/0.13.0/package'
+verbose mkdir done: /Users/xhowhy/.npm/stylus/0.13.0/package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/xhowhy/.npm/stylus/0.13.0/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose mkdir (expected) error ENOENT, stat '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534924-0.13850570749491453/package'
+verbose mkdir done: /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534924-0.13850570749491453/package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534924-0.13850570749491453/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose gunzed /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534924-0.13850570749491453/package
+verbose caching /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534924-0.13850570749491453/package/package.json
+verbose loadDefaults node-markdown@0.1.0
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534924-0.13850570749491453/package/package.json
+verbose pack /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534924-0.13850570749491453/package
+verbose pack /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534924-0.13850570749491453/package /Users/xhowhy/.npm/node-markdown/0.1.0/package.tgz
+silly makeList /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534924-0.13850570749491453/package
+silly dir, dirLen [ '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534924-0.13850570749491453/package',
+silly dir, dirLen   109 ]
+verbose tarball /Users/xhowhy/.npm/node-markdown/0.1.0/package.tgz
+verbose parent /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534924-0.13850570749491453/package
+verbose gunzed /Users/xhowhy/.npm/stylus/0.13.0/package
+verbose caching /Users/xhowhy/.npm/stylus/0.13.0/package/package.json
+verbose loadDefaults stylus@0.13.0
+silly updated sha bytes 40960
+silly updated sha bytes 8678
+info shasum e7ce1ab01acdd4a968b1ed844cc4be02ee71e4c2
+info shasum /Users/xhowhy/.npm/stylus/0.13.0/package.tgz
+verbose from cache /Users/xhowhy/.npm/stylus/0.13.0/package/package.json
+verbose chmod /Users/xhowhy/.npm/stylus/0.13.0/package.tgz 644
+verbose chown [ '/Users/xhowhy/.npm/stylus/0.13.0/package.tgz', 501, 20 ]
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/.npm/node-markdown/0.1.0/package'
+verbose mkdir done: /Users/xhowhy/.npm/node-markdown/0.1.0/package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/xhowhy/.npm/node-markdown/0.1.0/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose gunzed /Users/xhowhy/.npm/node-markdown/0.1.0/package
+verbose caching /Users/xhowhy/.npm/node-markdown/0.1.0/package/package.json
+verbose loadDefaults node-markdown@0.1.0
+silly updated sha bytes 40960
+silly updated sha bytes 24162
+info shasum a1556e8db85cad786b7abe0a742e94bc349854cd
+info shasum /Users/xhowhy/.npm/node-markdown/0.1.0/package.tgz
+verbose from cache /Users/xhowhy/.npm/node-markdown/0.1.0/package/package.json
+verbose chmod /Users/xhowhy/.npm/node-markdown/0.1.0/package.tgz 644
+verbose chown [ '/Users/xhowhy/.npm/node-markdown/0.1.0/package.tgz', 501, 20 ]
+http 200 http://registry.npmjs.vitecho.com/connect
+silly get cb [ 200,
+silly get cb   { server: 'nginx/1.0.14',
+silly get cb     date: 'Sat, 09 Jun 2012 15:08:56 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     vary: 'Accept',
+silly get cb     etag: '"AKVZXAU894BEXJ7Y1AXVNUEOU"',
+silly get cb     'content-length': '82594' } ]
+silly name, range, hasData 2 [ 'connect', '>=1.0.0- <2.0.0-', true ]
+silly versions [ 'connect',
+silly versions   [ '0.0.1',
+silly versions     '0.0.2',
+silly versions     '0.0.3',
+silly versions     '0.0.4',
+silly versions     '0.0.5',
+silly versions     '0.0.6',
+silly versions     '0.1.0',
+silly versions     '0.2.0',
+silly versions     '0.2.1',
+silly versions     '0.2.2',
+silly versions     '0.2.3',
+silly versions     '0.2.4',
+silly versions     '0.2.5',
+silly versions     '0.2.6',
+silly versions     '0.2.7',
+silly versions     '0.3.0',
+silly versions     '0.4.0',
+silly versions     '0.5.0',
+silly versions     '0.5.1',
+silly versions     '0.5.2',
+silly versions     '0.5.3',
+silly versions     '0.5.4',
+silly versions     '0.5.5',
+silly versions     '0.5.6',
+silly versions     '0.5.7',
+silly versions     '0.5.8',
+silly versions     '0.5.9',
+silly versions     '0.5.10',
+silly versions     '1.0.0',
+silly versions     '1.0.1',
+silly versions     '1.7.2',
+silly versions     '1.7.3',
+silly versions     '1.8.0',
+silly versions     '1.8.1',
+silly versions     '1.8.2',
+silly versions     '1.8.3',
+silly versions     '1.8.4',
+silly versions     '1.8.5',
+silly versions     '2.0.0',
+silly versions     '2.0.1',
+silly versions     '2.0.2',
+silly versions     '2.0.3',
+silly versions     '1.8.6',
+silly versions     '2.1.0',
+silly versions     '2.1.1',
+silly versions     '2.1.2',
+silly versions     '1.8.7',
+silly versions     '2.1.3',
+silly versions     '2.2.0',
+silly versions     '2.2.1',
+silly versions     '2.2.2',
+silly versions     '2.3.0',
+silly versions     '2.3.1',
+silly versions     '2.3.2' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.24-darwin-x64-11.2.0',
+verbose bin dist   { shasum: 'b620281884d455fab94c693d2db748652d6c8c17',
+verbose bin dist     tarball: 'http://registry.npmjs.vitecho.com/connect/-/connect-1.8.7.tgz' } ]
+verbose caching /Users/xhowhy/.npm/connect/1.8.7/package/package.json
+verbose loadDefaults connect@1.8.7
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 27765
+info shasum 514de77b161b9101a9a65eb4f1553fcf395c618a
+info shasum /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534841-0.8093291730619967/tmp.tgz
+verbose mkdir (expected) error ENOENT, stat '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534841-0.8093291730619967/package'
+verbose mkdir done: /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534841-0.8093291730619967/package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534841-0.8093291730619967/package
+silly gunzTarPerm modes [ '755', '644' ]
+WARN excluding symbolic link lib/index.js -> jade.js
+WARN excluding symbolic link support/sass/index.js -> lib/sass.js
+verbose gunzed /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534841-0.8093291730619967/package
+verbose caching /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534841-0.8093291730619967/package/package.json
+verbose loadDefaults jade@0.16.2
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534841-0.8093291730619967/package/package.json
+verbose pack /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534841-0.8093291730619967/package
+verbose pack /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534841-0.8093291730619967/package /Users/xhowhy/.npm/jade/0.16.2/package.tgz
+silly makeList /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534841-0.8093291730619967/package
+verbose caching /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534841-0.8093291730619967/package/support/coffee-script/package.json
+verbose loadDefaults coffee-script@0.9.4
+verbose caching /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534841-0.8093291730619967/package/support/expresso/package.json
+verbose loadDefaults expresso@0.6.2
+verbose caching /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534841-0.8093291730619967/package/support/sass/package.json
+verbose loadDefaults sass@0.4.3
+verbose caching /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534841-0.8093291730619967/package/support/stylus/package.json
+verbose loadDefaults stylus@0.9.2
+silly dir, dirLen [ '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534841-0.8093291730619967/package/support/coffee-script',
+silly dir, dirLen   130 ]
+silly dir, dirLen [ '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534841-0.8093291730619967/package/support/expresso',
+silly dir, dirLen   125 ]
+silly dir, dirLen [ '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534841-0.8093291730619967/package/support/sass',
+silly dir, dirLen   121 ]
+silly dir, dirLen [ '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534841-0.8093291730619967/package/support/stylus',
+silly dir, dirLen   123 ]
+silly dir, dirLen [ '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534841-0.8093291730619967/package',
+silly dir, dirLen   108 ]
+verbose tarball /Users/xhowhy/.npm/jade/0.16.2/package.tgz
+verbose parent /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534841-0.8093291730619967/package
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/.npm/jade/0.16.2/package'
+verbose mkdir done: /Users/xhowhy/.npm/jade/0.16.2/package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/xhowhy/.npm/jade/0.16.2/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose gunzed /Users/xhowhy/.npm/jade/0.16.2/package
+verbose caching /Users/xhowhy/.npm/jade/0.16.2/package/package.json
+verbose loadDefaults jade@0.16.2
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 39881
+info shasum dc6d2376e1aba4d9f5f74ada6992992d795ee7e5
+info shasum /Users/xhowhy/.npm/jade/0.16.2/package.tgz
+verbose from cache /Users/xhowhy/.npm/jade/0.16.2/package/package.json
+verbose chmod /Users/xhowhy/.npm/jade/0.16.2/package.tgz 644
+verbose chown [ '/Users/xhowhy/.npm/jade/0.16.2/package.tgz', 501, 20 ]
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 30486
+info shasum 177b260908acaebe45ee16ddf74495a3f55862e8
+info shasum /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534854-0.02395198424346745/tmp.tgz
+verbose mkdir (expected) error ENOENT, stat '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534854-0.02395198424346745/package'
+verbose mkdir done: /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534854-0.02395198424346745/package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534854-0.02395198424346745/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose gunzed /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534854-0.02395198424346745/package
+verbose caching /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534854-0.02395198424346745/package/package.json
+verbose loadDefaults expresso@0.9.2
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534854-0.02395198424346745/package/package.json
+verbose pack /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534854-0.02395198424346745/package
+verbose pack /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534854-0.02395198424346745/package /Users/xhowhy/.npm/expresso/0.9.2/package.tgz
+silly makeList /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534854-0.02395198424346745/package
+silly dir, dirLen [ '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534854-0.02395198424346745/package',
+silly dir, dirLen   109 ]
+verbose tarball /Users/xhowhy/.npm/expresso/0.9.2/package.tgz
+verbose parent /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254534854-0.02395198424346745/package
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/.npm/expresso/0.9.2/package'
+verbose mkdir done: /Users/xhowhy/.npm/expresso/0.9.2/package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/xhowhy/.npm/expresso/0.9.2/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose gunzed /Users/xhowhy/.npm/expresso/0.9.2/package
+verbose caching /Users/xhowhy/.npm/expresso/0.9.2/package/package.json
+verbose loadDefaults expresso@0.9.2
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 37121
+info shasum 05278ca0111047533935161afd49e3ef38142bd5
+info shasum /Users/xhowhy/.npm/expresso/0.9.2/package.tgz
+verbose from cache /Users/xhowhy/.npm/expresso/0.9.2/package/package.json
+verbose chmod /Users/xhowhy/.npm/expresso/0.9.2/package.tgz 644
+verbose chown [ '/Users/xhowhy/.npm/expresso/0.9.2/package.tgz', 501, 20 ]
+silly resolved [ { author: 
+silly resolved      { name: 'Robert Kieffer',
+silly resolved        email: 'robert@broofa.com',
+silly resolved        url: 'http://github.com/broofa' },
+silly resolved     contributors: 
+silly resolved      [ { name: 'Benjamin Thomas',
+silly resolved          email: 'benjamin@benjaminthomas.org',
+silly resolved          url: 'http://github.com/bentomas' } ],
+silly resolved     dependencies: {},
+silly resolved     description: 'A comprehensive library for mime-type mapping',
+silly resolved     devDependencies: { async_testing: '' },
+silly resolved     keywords: [ 'util', 'mime' ],
+silly resolved     main: 'mime.js',
+silly resolved     name: 'mime',
+silly resolved     repository: { url: 'git://github.com/bentomas/node-mime.git', type: 'git' },
+silly resolved     version: '1.2.4',
+silly resolved     _id: 'mime@1.2.4',
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.12',
+silly resolved     _nodeVersion: 'v0.6.14',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'mime@1.2.4',
+silly resolved     scripts: {} },
+silly resolved   { name: 'mkdirp',
+silly resolved     description: 'Recursively mkdir, like `mkdir -p`',
+silly resolved     version: '0.3.0',
+silly resolved     author: 
+silly resolved      { name: 'James Halliday',
+silly resolved        email: 'mail@substack.net',
+silly resolved        url: 'http://substack.net' },
+silly resolved     main: './index',
+silly resolved     keywords: [ 'mkdir', 'directory' ],
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/substack/node-mkdirp.git' },
+silly resolved     scripts: { test: 'tap test/*.js' },
+silly resolved     devDependencies: { tap: '0.0.x' },
+silly resolved     license: 'MIT/X11',
+silly resolved     engines: { node: '*' },
+silly resolved     _id: 'mkdirp@0.3.0',
+silly resolved     dependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.12',
+silly resolved     _nodeVersion: 'v0.6.14',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'mkdirp@0.3.0' },
+silly resolved   { name: 'connect-redis',
+silly resolved     description: 'Redis session store for Connect',
+silly resolved     version: '1.3.0',
+silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly resolved     main: './index.js',
+silly resolved     dependencies: { redis: '*', debug: '*' },
+silly resolved     devDependencies: { connect: '*' },
+silly resolved     engines: { node: '*' },
+silly resolved     _id: 'connect-redis@1.3.0',
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.12',
+silly resolved     _nodeVersion: 'v0.6.14',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'connect-redis@>= 0.0.1',
+silly resolved     scripts: {} },
+silly resolved   { name: 'ejs',
+silly resolved     description: 'Embedded JavaScript templates',
+silly resolved     version: '0.4.2',
+silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly resolved     keywords: [ 'template', 'engine', 'ejs' ],
+silly resolved     main: './lib/ejs.js',
+silly resolved     _id: 'ejs@0.4.2',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.12',
+silly resolved     _nodeVersion: 'v0.6.14',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'abf4f143f3cee467107b9b2638dd3a209c868fc9' },
+silly resolved     _from: 'ejs@0.4.2',
+silly resolved     scripts: {} },
+silly resolved   { name: 'express-messages',
+silly resolved     description: 'Express flash notification message rendering',
+silly resolved     version: '0.0.2',
+silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly resolved     keywords: [ 'express' ],
+silly resolved     main: 'index',
+silly resolved     engines: { node: '>= 0.2.0' },
+silly resolved     _id: 'express-messages@0.0.2',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.12',
+silly resolved     _nodeVersion: 'v0.6.14',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '762fa65291b9fe3bfee618b061112574898f00a7' },
+silly resolved     _from: 'express-messages@0.0.2',
+silly resolved     scripts: {} },
+silly resolved   { name: 'should',
+silly resolved     description: 'test framework agnostic BDD-style assertions',
+silly resolved     version: '0.3.2',
+silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly resolved     contributors: [ { name: 'Aseem Kishore', email: 'aseem.kishore@gmail.com' } ],
+silly resolved     devDependencies: { expresso: '0.9.2', should: '*' },
+silly resolved     keywords: [ 'test', 'bdd', 'assert' ],
+silly resolved     main: './lib/should.js',
+silly resolved     engines: { node: '>= 0.2.0' },
+silly resolved     _id: 'should@0.3.2',
+silly resolved     dependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.12',
+silly resolved     _nodeVersion: 'v0.6.14',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '0c765f85d559bc4bce12cb36112c9995f33ec32f' },
+silly resolved     _from: 'should@0.3.2',
+silly resolved     scripts: {} },
+silly resolved   { name: 'hamljs',
+silly resolved     description: 'Faster / Express compliant Haml implementation',
+silly resolved     version: '0.6.0',
+silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/haml.js.git' },
+silly resolved     author: 
+silly resolved      { name: 'TJ Holowaychuk',
+silly resolved        email: 'tj@vision-media.ca',
+silly resolved        url: 'http://tjholowaychuk.com' },
+silly resolved     main: 'index',
+silly resolved     engines: { node: '0.6.x' },
+silly resolved     _id: 'hamljs@0.6.0',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.12',
+silly resolved     _nodeVersion: 'v0.6.14',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'ec4033cefd7f9008aebf70a90d7b6279b5c22101' },
+silly resolved     _from: 'hamljs@0.6.x',
+silly resolved     scripts: {} },
+silly resolved   { name: 'qs',
+silly resolved     description: 'querystring parser',
+silly resolved     version: '0.4.2',
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/visionmedia/node-querystring.git' },
+silly resolved     devDependencies: { mocha: '*', should: '*' },
+silly resolved     author: 
+silly resolved      { name: 'TJ Holowaychuk',
+silly resolved        email: 'tj@vision-media.ca',
+silly resolved        url: 'http://tjholowaychuk.com' },
+silly resolved     main: 'index',
+silly resolved     engines: { node: '*' },
+silly resolved     _id: 'qs@0.4.2',
+silly resolved     dependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.12',
+silly resolved     _nodeVersion: 'v0.6.14',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'qs@0.4.x',
+silly resolved     scripts: {} },
+silly resolved   { name: 'connect-form',
+silly resolved     description: 'urlencoded / multipart form parsing middleware for Connect',
+silly resolved     version: '0.2.1',
+silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly resolved     dependencies: { formidable: '>= 0.9.3' },
+silly resolved     main: './index.js',
+silly resolved     engines: { node: '>= 0.1.98' },
+silly resolved     _id: 'connect-form@0.2.1',
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.12',
+silly resolved     _nodeVersion: 'v0.6.14',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '61c0e0c041fe4c1ec54369a2aa6aaf3d870fdac5' },
+silly resolved     _from: 'connect-form@0.2.1',
+silly resolved     scripts: {} },
+silly resolved   { name: 'stylus',
+silly resolved     description: 'Robust, expressive, and feature-rich CSS superset',
+silly resolved     version: '0.13.0',
+silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly resolved     keywords: [ 'css', 'parser', 'style', 'stylesheets', 'jade', 'language' ],
+silly resolved     repository: { type: 'git', url: 'git://github.com/learnboost/stylus.git' },
+silly resolved     main: './index.js',
+silly resolved     engines: { node: '>= 0.2.4' },
+silly resolved     bin: { stylus: './bin/stylus' },
+silly resolved     dependencies: { cssom: '0.2.0', growl: '1.1.0' },
+silly resolved     _id: 'stylus@0.13.0',
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.12',
+silly resolved     _nodeVersion: 'v0.6.14',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'e7ce1ab01acdd4a968b1ed844cc4be02ee71e4c2' },
+silly resolved     _from: 'stylus@0.13.0',
+silly resolved     scripts: {} },
+silly resolved   { name: 'node-markdown',
+silly resolved     description: 'Parse Markdown syntax with node.js',
+silly resolved     version: '0.1.0',
+silly resolved     author: { name: 'Andris Reinman' },
+silly resolved     maintainers: [ { name: 'andris', email: 'andris@node.ee' } ],
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/andris9/node-markdown.git' },
+silly resolved     directories: { lib: './lib' },
+silly resolved     main: './lib/markdown',
+silly resolved     licenses: 
+silly resolved      [ { type: 'BSD',
+silly resolved          url: 'http://github.com/andris9/node-markdown/blob/master/LICENSE' } ],
+silly resolved     _id: 'node-markdown@0.1.0',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.12',
+silly resolved     _nodeVersion: 'v0.6.14',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'a1556e8db85cad786b7abe0a742e94bc349854cd' },
+silly resolved     _from: 'node-markdown@>= 0.0.1',
+silly resolved     scripts: {} },
+silly resolved   { name: 'connect',
+silly resolved     version: '1.8.7',
+silly resolved     description: 'High performance middleware framework',
+silly resolved     keywords: [ 'framework', 'web', 'middleware', 'connect', 'rack' ],
+silly resolved     repository: { type: 'git', url: 'git://github.com/senchalabs/connect.git' },
+silly resolved     author: 
+silly resolved      { name: 'TJ Holowaychuk',
+silly resolved        email: 'tj@vision-media.ca',
+silly resolved        url: 'http://tjholowaychuk.com' },
+silly resolved     dependencies: { qs: '>= 0.4.0', mime: '>= 0.0.1', formidable: '1.0.x' },
+silly resolved     devDependencies: 
+silly resolved      { expresso: '0.9.2',
+silly resolved        koala: '0.1.2',
+silly resolved        less: '1.1.1',
+silly resolved        sass: '0.5.0',
+silly resolved        markdown: '0.2.1',
+silly resolved        ejs: '0.4.3',
+silly resolved        should: '0.3.2' },
+silly resolved     publishConfig: { tag: '1.8' },
+silly resolved     main: 'index',
+silly resolved     engines: { node: '>= 0.4.1 < 0.7.0' },
+silly resolved     _id: 'connect@1.8.7',
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.12',
+silly resolved     _nodeVersion: 'v0.6.14',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'connect@1.x',
+silly resolved     scripts: {} },
+silly resolved   { name: 'jade',
+silly resolved     description: 'Jade template engine',
+silly resolved     version: '0.16.2',
+silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/jade.git' },
+silly resolved     main: './index.js',
+silly resolved     bin: { jade: './bin/jade' },
+silly resolved     dependencies: { commander: '0.1.0', mkdirp: '>= 0.0.7' },
+silly resolved     devDependencies: 
+silly resolved      { expresso: '0.6.4',
+silly resolved        'coffee-script': '>= 0.0.1',
+silly resolved        sass: '>= 0.0.1',
+silly resolved        less: '>= 0.0.1',
+silly resolved        markdown: '>= 0.0.1',
+silly resolved        stylus: '>= 0.0.1',
+silly resolved        uubench: '0.0.1',
+silly resolved        'uglify-js': '>= 1.0.7' },
+silly resolved     scripts: { prepublish: 'npm prune' },
+silly resolved     engines: { node: '>= 0.1.98' },
+silly resolved     _id: 'jade@0.16.2',
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.12',
+silly resolved     _nodeVersion: 'v0.6.14',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'dc6d2376e1aba4d9f5f74ada6992992d795ee7e5' },
+silly resolved     _from: 'jade@0.16.2' },
+silly resolved   { name: 'expresso',
+silly resolved     version: '0.9.2',
+silly resolved     description: 'TDD framework, light-weight, fast, CI-friendly',
+silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/visionmedia/expresso.git' },
+silly resolved     bin: 
+silly resolved      { expresso: './bin/expresso',
+silly resolved        'node-jscoverage': './deps/jscoverage/node-jscoverage' },
+silly resolved     scripts: { preinstall: 'make deps/jscoverage/node-jscoverage' },
+silly resolved     _id: 'expresso@0.9.2',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.12',
+silly resolved     _nodeVersion: 'v0.6.14',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '05278ca0111047533935161afd49e3ef38142bd5' },
+silly resolved     _from: 'expresso@0.9.2' } ]
+info into /Users/xhowhy/project/NodeDemo/express mime@1.2.4
+info into /Users/xhowhy/project/NodeDemo/express mkdirp@0.3.0
+info into /Users/xhowhy/project/NodeDemo/express connect-redis@1.3.0
+info into /Users/xhowhy/project/NodeDemo/express ejs@0.4.2
+info into /Users/xhowhy/project/NodeDemo/express express-messages@0.0.2
+info into /Users/xhowhy/project/NodeDemo/express should@0.3.2
+info into /Users/xhowhy/project/NodeDemo/express hamljs@0.6.0
+info into /Users/xhowhy/project/NodeDemo/express qs@0.4.2
+info into /Users/xhowhy/project/NodeDemo/express connect-form@0.2.1
+info into /Users/xhowhy/project/NodeDemo/express stylus@0.13.0
+info into /Users/xhowhy/project/NodeDemo/express node-markdown@0.1.0
+info into /Users/xhowhy/project/NodeDemo/express connect@1.8.7
+info into /Users/xhowhy/project/NodeDemo/express jade@0.16.2
+info into /Users/xhowhy/project/NodeDemo/express expresso@0.9.2
+info installOne mime@1.2.4
+info installOne mkdirp@0.3.0
+info installOne connect-redis@1.3.0
+info installOne ejs@0.4.2
+info installOne express-messages@0.0.2
+info installOne should@0.3.2
+info installOne hamljs@0.6.0
+info installOne qs@0.4.2
+info installOne connect-form@0.2.1
+info installOne stylus@0.13.0
+info installOne node-markdown@0.1.0
+info installOne connect@1.8.7
+info installOne jade@0.16.2
+info installOne expresso@0.9.2
+verbose from cache /Users/xhowhy/.npm/mime/1.2.4/package/package.json
+info unbuild /Users/xhowhy/project/NodeDemo/express/node_modules/mime
+verbose from cache /Users/xhowhy/.npm/mkdirp/0.3.0/package/package.json
+info unbuild /Users/xhowhy/project/NodeDemo/express/node_modules/mkdirp
+verbose from cache /Users/xhowhy/.npm/connect-redis/1.3.0/package/package.json
+info unbuild /Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis
+verbose from cache /Users/xhowhy/.npm/ejs/0.4.2/package/package.json
+info unbuild /Users/xhowhy/project/NodeDemo/express/node_modules/ejs
+verbose from cache /Users/xhowhy/.npm/express-messages/0.0.2/package/package.json
+info unbuild /Users/xhowhy/project/NodeDemo/express/node_modules/express-messages
+verbose from cache /Users/xhowhy/.npm/should/0.3.2/package/package.json
+info unbuild /Users/xhowhy/project/NodeDemo/express/node_modules/should
+verbose from cache /Users/xhowhy/.npm/hamljs/0.6.0/package/package.json
+info unbuild /Users/xhowhy/project/NodeDemo/express/node_modules/hamljs
+verbose from cache /Users/xhowhy/.npm/qs/0.4.2/package/package.json
+info unbuild /Users/xhowhy/project/NodeDemo/express/node_modules/qs
+verbose from cache /Users/xhowhy/.npm/connect-form/0.2.1/package/package.json
+info unbuild /Users/xhowhy/project/NodeDemo/express/node_modules/connect-form
+verbose from cache /Users/xhowhy/.npm/stylus/0.13.0/package/package.json
+info unbuild /Users/xhowhy/project/NodeDemo/express/node_modules/stylus
+verbose from cache /Users/xhowhy/.npm/node-markdown/0.1.0/package/package.json
+info unbuild /Users/xhowhy/project/NodeDemo/express/node_modules/node-markdown
+verbose from cache /Users/xhowhy/.npm/connect/1.8.7/package/package.json
+info unbuild /Users/xhowhy/project/NodeDemo/express/node_modules/connect
+verbose from cache /Users/xhowhy/.npm/jade/0.16.2/package/package.json
+info unbuild /Users/xhowhy/project/NodeDemo/express/node_modules/jade
+verbose from cache /Users/xhowhy/.npm/expresso/0.9.2/package/package.json
+info unbuild /Users/xhowhy/project/NodeDemo/express/node_modules/expresso
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules'
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules'
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules'
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules'
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules'
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules'
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules'
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules'
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules'
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules'
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules'
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules'
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules'
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules'
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules/mime'
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis'
+verbose mkdir done: /Users/xhowhy/project/NodeDemo/express/node_modules/mime 755
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules/mkdirp'
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules/ejs'
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules/express-messages'
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules/should'
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules/hamljs'
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules/qs'
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules/connect-form'
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules/stylus'
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules/node-markdown'
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules/connect'
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules/jade'
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules/expresso'
+verbose mkdir done: /Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/xhowhy/project/NodeDemo/express/node_modules/mime
+silly gunzTarPerm modes [ '755', '644' ]
+verbose mkdir done: /Users/xhowhy/project/NodeDemo/express/node_modules/mkdirp 755
+verbose mkdir done: /Users/xhowhy/project/NodeDemo/express/node_modules/ejs 755
+verbose mkdir done: /Users/xhowhy/project/NodeDemo/express/node_modules/express-messages 755
+verbose mkdir done: /Users/xhowhy/project/NodeDemo/express/node_modules/should 755
+verbose mkdir done: /Users/xhowhy/project/NodeDemo/express/node_modules/hamljs 755
+verbose mkdir done: /Users/xhowhy/project/NodeDemo/express/node_modules/qs 755
+verbose mkdir done: /Users/xhowhy/project/NodeDemo/express/node_modules/connect-form 755
+verbose mkdir done: /Users/xhowhy/project/NodeDemo/express/node_modules/stylus 755
+verbose mkdir done: /Users/xhowhy/project/NodeDemo/express/node_modules/node-markdown 755
+verbose mkdir done: /Users/xhowhy/project/NodeDemo/express/node_modules/connect 755
+verbose mkdir done: /Users/xhowhy/project/NodeDemo/express/node_modules/jade 755
+verbose mkdir done: /Users/xhowhy/project/NodeDemo/express/node_modules/expresso 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/xhowhy/project/NodeDemo/express/node_modules/mkdirp
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/xhowhy/project/NodeDemo/express/node_modules/ejs
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/xhowhy/project/NodeDemo/express/node_modules/express-messages
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/xhowhy/project/NodeDemo/express/node_modules/should
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/xhowhy/project/NodeDemo/express/node_modules/hamljs
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/xhowhy/project/NodeDemo/express/node_modules/qs
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/xhowhy/project/NodeDemo/express/node_modules/connect-form
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/xhowhy/project/NodeDemo/express/node_modules/stylus
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/xhowhy/project/NodeDemo/express/node_modules/node-markdown
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/xhowhy/project/NodeDemo/express/node_modules/connect
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/xhowhy/project/NodeDemo/express/node_modules/jade
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/xhowhy/project/NodeDemo/express/node_modules/expresso
+silly gunzTarPerm modes [ '755', '644' ]
+verbose gunzed /Users/xhowhy/project/NodeDemo/express/node_modules/express-messages
+verbose caching /Users/xhowhy/project/NodeDemo/express/node_modules/express-messages/package.json
+verbose loadDefaults express-messages@0.0.2
+info preinstall express-messages@0.0.2
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/express-messages/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/express-messages/package.json
+verbose readDependencies: using package.json deps
+silly resolved []
+verbose about to build /Users/xhowhy/project/NodeDemo/express/node_modules/express-messages
+info build /Users/xhowhy/project/NodeDemo/express/node_modules/express-messages
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/express-messages/package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   '/Users/xhowhy/project/NodeDemo/express/node_modules' ]
+info linkStuff express-messages@0.0.2
+verbose linkBins express-messages@0.0.2
+verbose linkMans express-messages@0.0.2
+verbose rebuildBundles express-messages@0.0.2
+info install express-messages@0.0.2
+info postinstall express-messages@0.0.2
+verbose gunzed /Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis
+verbose caching /Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis/package.json
+verbose loadDefaults connect-redis@1.3.0
+info preinstall connect-redis@1.3.0
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis/package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'redis@*', null ]
+silly cache add: name, spec, args [ undefined, 'redis@*', [ 'redis@*', null ] ]
+verbose parsed url { pathname: 'redis@*', path: 'redis@*', href: 'redis@*' }
+silly cache add: name, spec, args [ 'redis', '*', [ 'redis', '*' ] ]
+verbose parsed url { pathname: '*', path: '*', href: '*' }
+verbose addNamed [ 'redis', '*' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'redis', '', false ]
+verbose cache add [ 'debug@*', null ]
+silly cache add: name, spec, args [ undefined, 'debug@*', [ 'debug@*', null ] ]
+verbose parsed url { pathname: 'debug@*', path: 'debug@*', href: 'debug@*' }
+silly cache add: name, spec, args [ 'debug', '*', [ 'debug', '*' ] ]
+verbose parsed url { pathname: '*', path: '*', href: '*' }
+verbose addNamed [ 'debug', '*' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'debug', '', false ]
+verbose raw, before any munging redis
+verbose url resolving [ 'http://registry.npmjs.vitecho.com/', './redis' ]
+verbose url resolved http://registry.npmjs.vitecho.com/redis
+verbose etag "C1JE41022N1FRCRE53XSEYTN5"
+http GET http://registry.npmjs.vitecho.com/redis
+verbose raw, before any munging debug
+verbose url resolving [ 'http://registry.npmjs.vitecho.com/', './debug' ]
+verbose url resolved http://registry.npmjs.vitecho.com/debug
+verbose etag "8CQVYENSMVVAU1ZKMTRI991XN"
+http GET http://registry.npmjs.vitecho.com/debug
+verbose gunzed /Users/xhowhy/project/NodeDemo/express/node_modules/qs
+verbose caching /Users/xhowhy/project/NodeDemo/express/node_modules/qs/package.json
+verbose loadDefaults qs@0.4.2
+info preinstall qs@0.4.2
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/qs/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/qs/package.json
+verbose readDependencies: using package.json deps
+silly resolved []
+verbose about to build /Users/xhowhy/project/NodeDemo/express/node_modules/qs
+info build /Users/xhowhy/project/NodeDemo/express/node_modules/qs
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/qs/package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   '/Users/xhowhy/project/NodeDemo/express/node_modules' ]
+info linkStuff qs@0.4.2
+verbose linkBins qs@0.4.2
+verbose linkMans qs@0.4.2
+verbose rebuildBundles qs@0.4.2
+info install qs@0.4.2
+info postinstall qs@0.4.2
+verbose gunzed /Users/xhowhy/project/NodeDemo/express/node_modules/mime
+verbose caching /Users/xhowhy/project/NodeDemo/express/node_modules/mime/package.json
+verbose loadDefaults mime@1.2.4
+info preinstall mime@1.2.4
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/mime/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/mime/package.json
+verbose readDependencies: using package.json deps
+silly resolved []
+verbose about to build /Users/xhowhy/project/NodeDemo/express/node_modules/mime
+info build /Users/xhowhy/project/NodeDemo/express/node_modules/mime
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/mime/package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   '/Users/xhowhy/project/NodeDemo/express/node_modules' ]
+info linkStuff mime@1.2.4
+verbose linkBins mime@1.2.4
+verbose linkMans mime@1.2.4
+verbose rebuildBundles mime@1.2.4
+info install mime@1.2.4
+info postinstall mime@1.2.4
+verbose gunzed /Users/xhowhy/project/NodeDemo/express/node_modules/should
+verbose caching /Users/xhowhy/project/NodeDemo/express/node_modules/should/package.json
+verbose loadDefaults should@0.3.2
+verbose gunzed /Users/xhowhy/project/NodeDemo/express/node_modules/mkdirp
+info preinstall should@0.3.2
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/should/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/should/package.json
+verbose caching /Users/xhowhy/project/NodeDemo/express/node_modules/mkdirp/package.json
+verbose loadDefaults mkdirp@0.3.0
+verbose readDependencies: using package.json deps
+silly resolved []
+verbose about to build /Users/xhowhy/project/NodeDemo/express/node_modules/should
+info build /Users/xhowhy/project/NodeDemo/express/node_modules/should
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/should/package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   '/Users/xhowhy/project/NodeDemo/express/node_modules' ]
+info linkStuff should@0.3.2
+verbose linkBins should@0.3.2
+verbose linkMans should@0.3.2
+verbose rebuildBundles should@0.3.2
+info install should@0.3.2
+info preinstall mkdirp@0.3.0
+info postinstall should@0.3.2
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/mkdirp/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/mkdirp/package.json
+verbose readDependencies: using package.json deps
+silly resolved []
+verbose about to build /Users/xhowhy/project/NodeDemo/express/node_modules/mkdirp
+info build /Users/xhowhy/project/NodeDemo/express/node_modules/mkdirp
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/mkdirp/package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   '/Users/xhowhy/project/NodeDemo/express/node_modules' ]
+info linkStuff mkdirp@0.3.0
+verbose linkBins mkdirp@0.3.0
+verbose linkMans mkdirp@0.3.0
+verbose rebuildBundles mkdirp@0.3.0
+http 304 http://registry.npmjs.vitecho.com/redis
+silly get cb [ 304,
+silly get cb   { server: 'nginx/1.0.14',
+silly get cb     date: 'Sat, 09 Jun 2012 15:09:25 GMT',
+silly get cb     etag: '"C1JE41022N1FRCRE53XSEYTN5"',
+silly get cb     'content-length': '0' } ]
+verbose etag redis from cache
+info install mkdirp@0.3.0
+info postinstall mkdirp@0.3.0
+silly name, range, hasData 2 [ 'redis', '', true ]
+silly versions [ 'redis',
+silly versions   [ '0.0.1',
+silly versions     '0.0.2',
+silly versions     '0.0.3',
+silly versions     '0.0.4',
+silly versions     '0.0.7',
+silly versions     '0.0.8',
+silly versions     '0.1.0',
+silly versions     '0.1.1',
+silly versions     '0.1.2',
+silly versions     '0.2.0',
+silly versions     '0.2.1',
+silly versions     '0.2.2',
+silly versions     '0.2.3',
+silly versions     '0.2.4',
+silly versions     '0.2.6',
+silly versions     '0.3.0',
+silly versions     '0.3.1',
+silly versions     '0.3.2',
+silly versions     '0.3.3',
+silly versions     '0.3.4',
+silly versions     '0.3.5',
+silly versions     '0.3.6',
+silly versions     '0.3.7',
+silly versions     '0.3.9',
+silly versions     '0.4.0',
+silly versions     '0.4.1',
+silly versions     '0.4.2',
+silly versions     '0.5.0',
+silly versions     '0.5.1',
+silly versions     '0.5.2',
+silly versions     '0.5.3',
+silly versions     '0.5.4',
+silly versions     '0.5.5',
+silly versions     '0.5.6',
+silly versions     '0.5.7',
+silly versions     '0.5.8',
+silly versions     '0.5.9',
+silly versions     '0.5.10',
+silly versions     '0.5.11',
+silly versions     '0.6.0',
+silly versions     '0.6.1',
+silly versions     '0.6.2',
+silly versions     '0.6.3',
+silly versions     '0.6.4',
+silly versions     '0.6.5',
+silly versions     '0.6.6',
+silly versions     '0.6.7',
+silly versions     '0.7.0',
+silly versions     '0.7.1',
+silly versions     '0.7.2' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.24-darwin-x64-11.2.0',
+verbose bin dist   { shasum: 'fa557fef4985ab3e3384fdc5be6e2541a0bb49af',
+verbose bin dist     tarball: 'http://registry.npmjs.vitecho.com/redis/-/redis-0.7.2.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.vitecho.com/redis/-/redis-0.7.2.tgz',
+verbose addRemoteTarball   'fa557fef4985ab3e3384fdc5be6e2541a0bb49af' ]
+verbose mkdir (expected) error ENOENT, stat '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254565830-0.3754049348644912'
+verbose mkdir done: /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254565830-0.3754049348644912 755
+verbose fetch to /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254565830-0.3754049348644912/tmp.tgz
+http GET http://registry.npmjs.vitecho.com/redis/-/redis-0.7.2.tgz
+http 304 http://registry.npmjs.vitecho.com/debug
+silly get cb [ 304,
+silly get cb   { server: 'nginx/1.0.14',
+silly get cb     date: 'Sat, 09 Jun 2012 15:09:25 GMT',
+silly get cb     etag: '"8CQVYENSMVVAU1ZKMTRI991XN"',
+silly get cb     'content-length': '0' } ]
+verbose etag debug from cache
+silly name, range, hasData 2 [ 'debug', '', true ]
+silly versions [ 'debug',
+silly versions   [ '0.0.1',
+silly versions     '0.1.0',
+silly versions     '0.2.0',
+silly versions     '0.3.0',
+silly versions     '0.4.0',
+silly versions     '0.4.1',
+silly versions     '0.5.0',
+silly versions     '0.6.0',
+silly versions     '0.7.0' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.24-darwin-x64-11.2.0',
+verbose bin dist   { shasum: '79842815395975b8baee945004c2def149f2401d',
+verbose bin dist     tarball: 'http://registry.npmjs.vitecho.com/debug/-/debug-0.7.0.tgz' } ]
+verbose caching /Users/xhowhy/.npm/debug/0.7.0/package/package.json
+verbose loadDefaults debug@0.7.0
+http 200 http://registry.npmjs.vitecho.com/redis/-/redis-0.7.2.tgz
+verbose gunzed /Users/xhowhy/project/NodeDemo/express/node_modules/hamljs
+verbose caching /Users/xhowhy/project/NodeDemo/express/node_modules/hamljs/package.json
+verbose loadDefaults hamljs@0.6.0
+info preinstall hamljs@0.6.0
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/hamljs/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/hamljs/package.json
+verbose readDependencies: using package.json deps
+silly resolved []
+verbose about to build /Users/xhowhy/project/NodeDemo/express/node_modules/hamljs
+info build /Users/xhowhy/project/NodeDemo/express/node_modules/hamljs
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/hamljs/package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   '/Users/xhowhy/project/NodeDemo/express/node_modules' ]
+info linkStuff hamljs@0.6.0
+verbose linkBins hamljs@0.6.0
+verbose linkMans hamljs@0.6.0
+verbose rebuildBundles hamljs@0.6.0
+info install hamljs@0.6.0
+info postinstall hamljs@0.6.0
+silly updated sha bytes 40960
+silly updated sha bytes 6674
+info shasum fa557fef4985ab3e3384fdc5be6e2541a0bb49af
+info shasum /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254565830-0.3754049348644912/tmp.tgz
+verbose mkdir (expected) error ENOENT, stat '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254565830-0.3754049348644912/package'
+verbose mkdir done: /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254565830-0.3754049348644912/package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254565830-0.3754049348644912/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose gunzed /Users/xhowhy/project/NodeDemo/express/node_modules/node-markdown
+verbose caching /Users/xhowhy/project/NodeDemo/express/node_modules/node-markdown/package.json
+verbose loadDefaults node-markdown@0.1.0
+info preinstall node-markdown@0.1.0
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/node-markdown/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/node-markdown/package.json
+verbose readDependencies: using package.json deps
+silly resolved []
+verbose about to build /Users/xhowhy/project/NodeDemo/express/node_modules/node-markdown
+info build /Users/xhowhy/project/NodeDemo/express/node_modules/node-markdown
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/node-markdown/package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   '/Users/xhowhy/project/NodeDemo/express/node_modules' ]
+info linkStuff node-markdown@0.1.0
+verbose linkBins node-markdown@0.1.0
+verbose linkMans node-markdown@0.1.0
+verbose rebuildBundles node-markdown@0.1.0
+info install node-markdown@0.1.0
+info postinstall node-markdown@0.1.0
+verbose gunzed /Users/xhowhy/project/NodeDemo/express/node_modules/ejs
+verbose caching /Users/xhowhy/project/NodeDemo/express/node_modules/ejs/package.json
+verbose loadDefaults ejs@0.4.2
+info preinstall ejs@0.4.2
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/ejs/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/ejs/package.json
+verbose readDependencies: using package.json deps
+silly resolved []
+verbose about to build /Users/xhowhy/project/NodeDemo/express/node_modules/ejs
+info build /Users/xhowhy/project/NodeDemo/express/node_modules/ejs
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/ejs/package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   '/Users/xhowhy/project/NodeDemo/express/node_modules' ]
+info linkStuff ejs@0.4.2
+verbose linkBins ejs@0.4.2
+verbose linkMans ejs@0.4.2
+verbose rebuildBundles ejs@0.4.2
+info install ejs@0.4.2
+info postinstall ejs@0.4.2
+verbose gunzed /Users/xhowhy/project/NodeDemo/express/node_modules/stylus
+verbose caching /Users/xhowhy/project/NodeDemo/express/node_modules/stylus/package.json
+verbose loadDefaults stylus@0.13.0
+info preinstall stylus@0.13.0
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/stylus/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/stylus/package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'cssom@0.2.0', null ]
+silly cache add: name, spec, args [ undefined, 'cssom@0.2.0', [ 'cssom@0.2.0', null ] ]
+verbose parsed url { pathname: 'cssom@0.2.0',
+verbose parsed url   path: 'cssom@0.2.0',
+verbose parsed url   href: 'cssom@0.2.0' }
+silly cache add: name, spec, args [ 'cssom', '0.2.0', [ 'cssom', '0.2.0' ] ]
+verbose parsed url { pathname: '0.2.0', path: '0.2.0', href: '0.2.0' }
+verbose addNamed [ 'cssom', '0.2.0' ]
+verbose addNamed [ '0.2.0', '0.2.0' ]
+verbose raw, before any munging cssom/0.2.0
+verbose url resolving [ 'http://registry.npmjs.vitecho.com/', './cssom/0.2.0' ]
+verbose url resolved http://registry.npmjs.vitecho.com/cssom/0.2.0
+http GET http://registry.npmjs.vitecho.com/cssom/0.2.0
+verbose cache add [ 'growl@1.1.0', null ]
+silly cache add: name, spec, args [ undefined, 'growl@1.1.0', [ 'growl@1.1.0', null ] ]
+verbose parsed url { pathname: 'growl@1.1.0',
+verbose parsed url   path: 'growl@1.1.0',
+verbose parsed url   href: 'growl@1.1.0' }
+silly cache add: name, spec, args [ 'growl', '1.1.0', [ 'growl', '1.1.0' ] ]
+verbose parsed url { pathname: '1.1.0', path: '1.1.0', href: '1.1.0' }
+verbose addNamed [ 'growl', '1.1.0' ]
+verbose addNamed [ '1.1.0', '1.1.0' ]
+verbose raw, before any munging growl/1.1.0
+verbose url resolving [ 'http://registry.npmjs.vitecho.com/', './growl/1.1.0' ]
+verbose url resolved http://registry.npmjs.vitecho.com/growl/1.1.0
+http GET http://registry.npmjs.vitecho.com/growl/1.1.0
+http 200 http://registry.npmjs.vitecho.com/cssom/0.2.0
+silly get cb [ 200,
+silly get cb   { server: 'nginx/1.0.14',
+silly get cb     date: 'Sat, 09 Jun 2012 15:09:26 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     vary: 'Accept',
+silly get cb     etag: '"BMQOMU7S4UP01EGXZ3KW5UE1S"',
+silly get cb     'content-length': '936' } ]
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/.npm/cssom/0.2.0'
+verbose mkdir done: /Users/xhowhy/.npm/cssom/0.2.0 755
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.24-darwin-x64-11.2.0',
+verbose bin dist   { shasum: 'ce47d8d63b6bfe46b447476c7feac487b44a8a25',
+verbose bin dist     tarball: 'http://registry.npmjs.vitecho.com/cssom/-/cssom-0.2.0.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.vitecho.com/cssom/-/cssom-0.2.0.tgz',
+verbose addRemoteTarball   'ce47d8d63b6bfe46b447476c7feac487b44a8a25' ]
+verbose mkdir (expected) error ENOENT, stat '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254566326-0.5257065356709063'
+verbose mkdir done: /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254566326-0.5257065356709063 755
+verbose fetch to /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254566326-0.5257065356709063/tmp.tgz
+http GET http://registry.npmjs.vitecho.com/cssom/-/cssom-0.2.0.tgz
+http 200 http://registry.npmjs.vitecho.com/growl/1.1.0
+silly get cb [ 200,
+silly get cb   { server: 'nginx/1.0.14',
+silly get cb     date: 'Sat, 09 Jun 2012 15:09:26 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     vary: 'Accept',
+silly get cb     etag: '"6NA2XKCHU4NBKZN4GUM3T6PJK"',
+silly get cb     'content-length': '481' } ]
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/.npm/growl/1.1.0'
+verbose mkdir done: /Users/xhowhy/.npm/growl/1.1.0 755
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.24-darwin-x64-11.2.0',
+verbose bin dist   { shasum: '93808dd6df4e336785d5213b9d47c5047f363623',
+verbose bin dist     tarball: 'http://registry.npmjs.vitecho.com/growl/-/growl-1.1.0.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.vitecho.com/growl/-/growl-1.1.0.tgz',
+verbose addRemoteTarball   '93808dd6df4e336785d5213b9d47c5047f363623' ]
+verbose mkdir (expected) error ENOENT, stat '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254566342-0.22584558255039155'
+verbose mkdir done: /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254566342-0.22584558255039155 755
+verbose gunzed /Users/xhowhy/project/NodeDemo/express/node_modules/connect
+verbose fetch to /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254566342-0.22584558255039155/tmp.tgz
+http GET http://registry.npmjs.vitecho.com/growl/-/growl-1.1.0.tgz
+verbose caching /Users/xhowhy/project/NodeDemo/express/node_modules/connect/package.json
+verbose loadDefaults connect@1.8.7
+info preinstall connect@1.8.7
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/connect/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/connect/package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'formidable@1.0.x', null ]
+silly cache add: name, spec, args [ undefined, 'formidable@1.0.x', [ 'formidable@1.0.x', null ] ]
+verbose parsed url { pathname: 'formidable@1.0.x',
+verbose parsed url   path: 'formidable@1.0.x',
+verbose parsed url   href: 'formidable@1.0.x' }
+silly cache add: name, spec, args [ 'formidable', '1.0.x', [ 'formidable', '1.0.x' ] ]
+verbose parsed url { pathname: '1.0.x', path: '1.0.x', href: '1.0.x' }
+verbose addNamed [ 'formidable', '1.0.x' ]
+verbose addNamed [ null, '>=1.0.0- <1.1.0-' ]
+silly name, range, hasData [ 'formidable', '>=1.0.0- <1.1.0-', false ]
+verbose gunzed /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254565830-0.3754049348644912/package
+verbose caching /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254565830-0.3754049348644912/package/package.json
+verbose loadDefaults redis@0.7.2
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254565830-0.3754049348644912/package/package.json
+verbose pack /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254565830-0.3754049348644912/package
+verbose pack /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254565830-0.3754049348644912/package /Users/xhowhy/.npm/redis/0.7.2/package.tgz
+silly makeList /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254565830-0.3754049348644912/package
+silly dir, dirLen [ '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254565830-0.3754049348644912/package',
+silly dir, dirLen   108 ]
+verbose tarball /Users/xhowhy/.npm/redis/0.7.2/package.tgz
+verbose parent /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254565830-0.3754049348644912/package
+verbose raw, before any munging formidable
+verbose url resolving [ 'http://registry.npmjs.vitecho.com/', './formidable' ]
+verbose url resolved http://registry.npmjs.vitecho.com/formidable
+verbose etag "52VK5I70TM47EQT14CDYKHKEG"
+http GET http://registry.npmjs.vitecho.com/formidable
+http 200 http://registry.npmjs.vitecho.com/cssom/-/cssom-0.2.0.tgz
+http 200 http://registry.npmjs.vitecho.com/growl/-/growl-1.1.0.tgz
+silly updated sha bytes 2589
+info shasum 93808dd6df4e336785d5213b9d47c5047f363623
+info shasum /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254566342-0.22584558255039155/tmp.tgz
+verbose mkdir (expected) error ENOENT, stat '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254566342-0.22584558255039155/package'
+verbose mkdir done: /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254566342-0.22584558255039155/package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254566342-0.22584558255039155/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose gunzed /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254566342-0.22584558255039155/package
+verbose caching /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254566342-0.22584558255039155/package/package.json
+verbose loadDefaults growl@1.1.0
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254566342-0.22584558255039155/package/package.json
+verbose pack /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254566342-0.22584558255039155/package
+verbose pack /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254566342-0.22584558255039155/package /Users/xhowhy/.npm/growl/1.1.0/package.tgz
+silly makeList /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254566342-0.22584558255039155/package
+silly dir, dirLen [ '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254566342-0.22584558255039155/package',
+silly dir, dirLen   109 ]
+verbose tarball /Users/xhowhy/.npm/growl/1.1.0/package.tgz
+verbose parent /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254566342-0.22584558255039155/package
+silly updated sha bytes 8192
+silly updated sha bytes 32768
+info shasum ce47d8d63b6bfe46b447476c7feac487b44a8a25
+info shasum /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254566326-0.5257065356709063/tmp.tgz
+verbose mkdir (expected) error ENOENT, stat '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254566326-0.5257065356709063/package'
+verbose mkdir done: /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254566326-0.5257065356709063/package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254566326-0.5257065356709063/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/.npm/growl/1.1.0/package'
+verbose mkdir done: /Users/xhowhy/.npm/growl/1.1.0/package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/xhowhy/.npm/growl/1.1.0/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/.npm/redis/0.7.2/package'
+verbose mkdir done: /Users/xhowhy/.npm/redis/0.7.2/package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/xhowhy/.npm/redis/0.7.2/package
+silly gunzTarPerm modes [ '755', '644' ]
+http 200 http://registry.npmjs.vitecho.com/formidable
+silly get cb [ 200,
+silly get cb   { server: 'nginx/1.0.14',
+silly get cb     date: 'Sat, 09 Jun 2012 15:09:26 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     vary: 'Accept',
+silly get cb     etag: '"CO50FIUOSEUNJAD93Z3QFYO9H"',
+silly get cb     'content-length': '52008' } ]
+silly name, range, hasData 2 [ 'formidable', '>=1.0.0- <1.1.0-', true ]
+silly versions [ 'formidable',
+silly versions   [ '0.3.0',
+silly versions     '0.4.0',
+silly versions     '0.5.0',
+silly versions     '0.6.0',
+silly versions     '0.7.0',
+silly versions     '0.8.0',
+silly versions     '0.9.0',
+silly versions     '0.9.1',
+silly versions     '0.9.2',
+silly versions     '0.9.3',
+silly versions     '0.9.4',
+silly versions     '0.9.5',
+silly versions     '0.9.6',
+silly versions     '0.9.7',
+silly versions     '0.9.8',
+silly versions     '0.9.9',
+silly versions     '0.9.10',
+silly versions     '0.9.11',
+silly versions     '1.0.0',
+silly versions     '1.0.1',
+silly versions     '1.0.2',
+silly versions     '1.0.3',
+silly versions     '1.0.4',
+silly versions     '1.0.5',
+silly versions     '1.0.6',
+silly versions     '1.0.7',
+silly versions     '1.0.8',
+silly versions     '1.0.9',
+silly versions     '1.0.10',
+silly versions     '1.0.11' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.24-darwin-x64-11.2.0',
+verbose bin dist   { shasum: '68f63325a035e644b6f7bb3d11243b9761de1b30',
+verbose bin dist     tarball: 'http://registry.npmjs.vitecho.com/formidable/-/formidable-1.0.11.tgz' } ]
+verbose caching /Users/xhowhy/.npm/formidable/1.0.11/package/package.json
+verbose loadDefaults formidable@1.0.11
+silly resolved [ { name: 'formidable',
+silly resolved     version: '1.0.11',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: 
+silly resolved      { gently: '0.8.0',
+silly resolved        findit: '0.1.1',
+silly resolved        hashish: '0.0.4',
+silly resolved        urun: '0.0.4',
+silly resolved        utest: '0.0.3' },
+silly resolved     directories: { lib: './lib' },
+silly resolved     main: './lib/index',
+silly resolved     scripts: { test: 'make test' },
+silly resolved     engines: { node: '*' },
+silly resolved     optionalDependencies: {},
+silly resolved     _id: 'formidable@1.0.11',
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.12',
+silly resolved     _nodeVersion: 'v0.6.14',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'formidable@>= 0.9.3' } ]
+info into /Users/xhowhy/project/NodeDemo/express/node_modules/connect formidable@1.0.11
+info installOne formidable@1.0.11
+verbose from cache /Users/xhowhy/.npm/formidable/1.0.11/package/package.json
+info unbuild /Users/xhowhy/project/NodeDemo/express/node_modules/connect/node_modules/formidable
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules/connect/node_modules'
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules/connect/node_modules/formidable'
+verbose mkdir done: /Users/xhowhy/project/NodeDemo/express/node_modules/connect/node_modules/formidable 755
+verbose gunzed /Users/xhowhy/.npm/growl/1.1.0/package
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/xhowhy/project/NodeDemo/express/node_modules/connect/node_modules/formidable
+silly gunzTarPerm modes [ '755', '644' ]
+verbose caching /Users/xhowhy/.npm/growl/1.1.0/package/package.json
+verbose loadDefaults growl@1.1.0
+silly updated sha bytes 2537
+info shasum c6c7ebafdaf0d5a9b1244d158be8f24bc5e4addb
+info shasum /Users/xhowhy/.npm/growl/1.1.0/package.tgz
+verbose from cache /Users/xhowhy/.npm/growl/1.1.0/package/package.json
+verbose chmod /Users/xhowhy/.npm/growl/1.1.0/package.tgz 644
+verbose chown [ '/Users/xhowhy/.npm/growl/1.1.0/package.tgz', 501, 20 ]
+verbose gunzed /Users/xhowhy/project/NodeDemo/express/node_modules/connect/node_modules/formidable
+verbose caching /Users/xhowhy/project/NodeDemo/express/node_modules/connect/node_modules/formidable/package.json
+verbose loadDefaults formidable@1.0.11
+info preinstall formidable@1.0.11
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/connect/node_modules/formidable/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/connect/node_modules/formidable/package.json
+verbose readDependencies: using package.json deps
+silly resolved []
+verbose about to build /Users/xhowhy/project/NodeDemo/express/node_modules/connect/node_modules/formidable
+info build /Users/xhowhy/project/NodeDemo/express/node_modules/connect/node_modules/formidable
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/connect/node_modules/formidable/package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   '/Users/xhowhy/project/NodeDemo/express/node_modules/connect/node_modules' ]
+info linkStuff formidable@1.0.11
+verbose linkBins formidable@1.0.11
+verbose linkMans formidable@1.0.11
+verbose rebuildBundles formidable@1.0.11
+info install formidable@1.0.11
+info postinstall formidable@1.0.11
+verbose about to build /Users/xhowhy/project/NodeDemo/express/node_modules/connect
+info build /Users/xhowhy/project/NodeDemo/express/node_modules/connect
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/connect/package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   '/Users/xhowhy/project/NodeDemo/express/node_modules' ]
+info linkStuff connect@1.8.7
+verbose linkBins connect@1.8.7
+verbose linkMans connect@1.8.7
+verbose rebuildBundles connect@1.8.7
+verbose rebuildBundles [ 'formidable' ]
+info install connect@1.8.7
+info postinstall connect@1.8.7
+verbose gunzed /Users/xhowhy/.npm/redis/0.7.2/package
+verbose caching /Users/xhowhy/.npm/redis/0.7.2/package/package.json
+verbose loadDefaults redis@0.7.2
+silly updated sha bytes 40960
+silly updated sha bytes 6778
+info shasum b1684fe6f2a6029270c52257f189f9a94d6da159
+info shasum /Users/xhowhy/.npm/redis/0.7.2/package.tgz
+verbose from cache /Users/xhowhy/.npm/redis/0.7.2/package/package.json
+verbose chmod /Users/xhowhy/.npm/redis/0.7.2/package.tgz 644
+verbose chown [ '/Users/xhowhy/.npm/redis/0.7.2/package.tgz', 501, 20 ]
+silly resolved [ { name: 'debug',
+silly resolved     version: '0.7.0',
+silly resolved     description: 'small debugging utility',
+silly resolved     keywords: [ 'debug', 'log', 'debugger' ],
+silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly resolved     dependencies: {},
+silly resolved     devDependencies: { mocha: '*' },
+silly resolved     main: 'index',
+silly resolved     engines: { node: '*' },
+silly resolved     component: { scripts: { debug: 'debug.component.js' } },
+silly resolved     _id: 'debug@0.7.0',
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.12',
+silly resolved     _nodeVersion: 'v0.6.14',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'debug@*',
+silly resolved     scripts: {} },
+silly resolved   { name: 'redis',
+silly resolved     version: '0.7.2',
+silly resolved     description: 'Redis client library',
+silly resolved     author: { name: 'Matt Ranney', email: 'mjr@ranney.com' },
+silly resolved     maintainers: 
+silly resolved      [ { name: 'David Trejo',
+silly resolved          email: 'david.daniel.trejo@gmail.com',
+silly resolved          url: 'http://dtrejo.com/' } ],
+silly resolved     main: './index.js',
+silly resolved     scripts: { test: 'node ./test.js' },
+silly resolved     devDependencies: { metrics: '>=0.1.5' },
+silly resolved     optionalDependencies: { hiredis: '*' },
+silly resolved     repository: { type: 'git', url: 'git://github.com/mranney/node_redis.git' },
+silly resolved     _id: 'redis@0.7.2',
+silly resolved     dependencies: { hiredis: '*' },
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.12',
+silly resolved     _nodeVersion: 'v0.6.14',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'b1684fe6f2a6029270c52257f189f9a94d6da159' },
+silly resolved     _from: 'redis@*' } ]
+info into /Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis debug@0.7.0
+info into /Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis redis@0.7.2
+info installOne debug@0.7.0
+info installOne redis@0.7.2
+verbose from cache /Users/xhowhy/.npm/debug/0.7.0/package/package.json
+info unbuild /Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis/node_modules/debug
+verbose from cache /Users/xhowhy/.npm/redis/0.7.2/package/package.json
+info unbuild /Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis/node_modules/redis
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis/node_modules'
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis/node_modules'
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis/node_modules/debug'
+verbose mkdir done: /Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis/node_modules/debug 755
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis/node_modules/redis'
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis/node_modules/debug
+silly gunzTarPerm modes [ '755', '644' ]
+verbose mkdir done: /Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis/node_modules/redis 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis/node_modules/redis
+silly gunzTarPerm modes [ '755', '644' ]
+verbose gunzed /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254566326-0.5257065356709063/package
+verbose caching /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254566326-0.5257065356709063/package/package.json
+verbose loadDefaults cssom@0.2.0
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254566326-0.5257065356709063/package/package.json
+verbose pack /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254566326-0.5257065356709063/package
+verbose pack /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254566326-0.5257065356709063/package /Users/xhowhy/.npm/cssom/0.2.0/package.tgz
+silly makeList /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254566326-0.5257065356709063/package
+silly dir, dirLen [ '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254566326-0.5257065356709063/package',
+silly dir, dirLen   108 ]
+verbose tarball /Users/xhowhy/.npm/cssom/0.2.0/package.tgz
+verbose parent /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254566326-0.5257065356709063/package
+verbose gunzed /Users/xhowhy/project/NodeDemo/express/node_modules/connect-form
+verbose caching /Users/xhowhy/project/NodeDemo/express/node_modules/connect-form/package.json
+verbose loadDefaults connect-form@0.2.1
+info preinstall connect-form@0.2.1
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/connect-form/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/connect-form/package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'formidable@>= 0.9.3', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'formidable@>= 0.9.3',
+silly cache add: name, spec, args   [ 'formidable@>= 0.9.3', null ] ]
+verbose parsed url { pathname: 'formidable@',
+verbose parsed url   path: 'formidable@',
+verbose parsed url   href: 'formidable@' }
+silly cache add: name, spec, args [ 'formidable', '>= 0.9.3', [ 'formidable', '>= 0.9.3' ] ]
+verbose parsed url { pathname: '=', path: '=', href: '=' }
+verbose addNamed [ 'formidable', '>= 0.9.3' ]
+verbose addNamed [ null, '>=0.9.3' ]
+silly name, range, hasData [ 'formidable', '>=0.9.3', false ]
+verbose raw, before any munging formidable
+verbose url resolving [ 'http://registry.npmjs.vitecho.com/', './formidable' ]
+verbose url resolved http://registry.npmjs.vitecho.com/formidable
+verbose etag "CO50FIUOSEUNJAD93Z3QFYO9H"
+http GET http://registry.npmjs.vitecho.com/formidable
+verbose gunzed /Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis/node_modules/debug
+verbose caching /Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis/node_modules/debug/package.json
+verbose loadDefaults debug@0.7.0
+info preinstall debug@0.7.0
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis/node_modules/debug/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis/node_modules/debug/package.json
+verbose readDependencies: using package.json deps
+silly resolved []
+verbose about to build /Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis/node_modules/debug
+info build /Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis/node_modules/debug
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis/node_modules/debug/package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   '/Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis/node_modules' ]
+info linkStuff debug@0.7.0
+verbose linkBins debug@0.7.0
+verbose linkMans debug@0.7.0
+verbose rebuildBundles debug@0.7.0
+info install debug@0.7.0
+info postinstall debug@0.7.0
+http 304 http://registry.npmjs.vitecho.com/formidable
+silly get cb [ 304,
+silly get cb   { server: 'nginx/1.0.14',
+silly get cb     date: 'Sat, 09 Jun 2012 15:09:26 GMT',
+silly get cb     etag: '"CO50FIUOSEUNJAD93Z3QFYO9H"',
+silly get cb     'content-length': '0' } ]
+verbose etag formidable from cache
+silly name, range, hasData 2 [ 'formidable', '>=0.9.3', true ]
+silly versions [ 'formidable',
+silly versions   [ '0.3.0',
+silly versions     '0.4.0',
+silly versions     '0.5.0',
+silly versions     '0.6.0',
+silly versions     '0.7.0',
+silly versions     '0.8.0',
+silly versions     '0.9.0',
+silly versions     '0.9.1',
+silly versions     '0.9.2',
+silly versions     '0.9.3',
+silly versions     '0.9.4',
+silly versions     '0.9.5',
+silly versions     '0.9.6',
+silly versions     '0.9.7',
+silly versions     '0.9.8',
+silly versions     '0.9.9',
+silly versions     '0.9.10',
+silly versions     '0.9.11',
+silly versions     '1.0.0',
+silly versions     '1.0.1',
+silly versions     '1.0.2',
+silly versions     '1.0.3',
+silly versions     '1.0.4',
+silly versions     '1.0.5',
+silly versions     '1.0.6',
+silly versions     '1.0.7',
+silly versions     '1.0.8',
+silly versions     '1.0.9',
+silly versions     '1.0.10',
+silly versions     '1.0.11' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.24-darwin-x64-11.2.0',
+verbose bin dist   { shasum: '68f63325a035e644b6f7bb3d11243b9761de1b30',
+verbose bin dist     tarball: 'http://registry.npmjs.vitecho.com/formidable/-/formidable-1.0.11.tgz' } ]
+verbose from cache /Users/xhowhy/.npm/formidable/1.0.11/package/package.json
+silly resolved [ { name: 'formidable',
+silly resolved     version: '1.0.11',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: 
+silly resolved      { gently: '0.8.0',
+silly resolved        findit: '0.1.1',
+silly resolved        hashish: '0.0.4',
+silly resolved        urun: '0.0.4',
+silly resolved        utest: '0.0.3' },
+silly resolved     directories: { lib: './lib' },
+silly resolved     main: './lib/index',
+silly resolved     scripts: { test: 'make test' },
+silly resolved     engines: { node: '*' },
+silly resolved     optionalDependencies: {},
+silly resolved     _id: 'formidable@1.0.11',
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.12',
+silly resolved     _nodeVersion: 'v0.6.14',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'formidable@>= 0.9.3' } ]
+info into /Users/xhowhy/project/NodeDemo/express/node_modules/connect-form formidable@1.0.11
+info installOne formidable@1.0.11
+verbose from cache /Users/xhowhy/.npm/formidable/1.0.11/package/package.json
+info unbuild /Users/xhowhy/project/NodeDemo/express/node_modules/connect-form/node_modules/formidable
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules/connect-form/node_modules'
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules/connect-form/node_modules/formidable'
+verbose mkdir done: /Users/xhowhy/project/NodeDemo/express/node_modules/connect-form/node_modules/formidable 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/xhowhy/project/NodeDemo/express/node_modules/connect-form/node_modules/formidable
+silly gunzTarPerm modes [ '755', '644' ]
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/.npm/cssom/0.2.0/package'
+verbose mkdir done: /Users/xhowhy/.npm/cssom/0.2.0/package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/xhowhy/.npm/cssom/0.2.0/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose gunzed /Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis/node_modules/redis
+verbose caching /Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis/node_modules/redis/package.json
+verbose loadDefaults redis@0.7.2
+info preinstall redis@0.7.2
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis/node_modules/redis/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis/node_modules/redis/package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'hiredis@*', null ]
+silly cache add: name, spec, args [ undefined, 'hiredis@*', [ 'hiredis@*', null ] ]
+verbose parsed url { pathname: 'hiredis@*', path: 'hiredis@*', href: 'hiredis@*' }
+silly cache add: name, spec, args [ 'hiredis', '*', [ 'hiredis', '*' ] ]
+verbose parsed url { pathname: '*', path: '*', href: '*' }
+verbose addNamed [ 'hiredis', '*' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'hiredis', '', false ]
+verbose raw, before any munging hiredis
+verbose url resolving [ 'http://registry.npmjs.vitecho.com/', './hiredis' ]
+verbose url resolved http://registry.npmjs.vitecho.com/hiredis
+http GET http://registry.npmjs.vitecho.com/hiredis
+verbose gunzed /Users/xhowhy/project/NodeDemo/express/node_modules/connect-form/node_modules/formidable
+verbose caching /Users/xhowhy/project/NodeDemo/express/node_modules/connect-form/node_modules/formidable/package.json
+verbose loadDefaults formidable@1.0.11
+info preinstall formidable@1.0.11
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/connect-form/node_modules/formidable/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/connect-form/node_modules/formidable/package.json
+verbose readDependencies: using package.json deps
+silly resolved []
+verbose about to build /Users/xhowhy/project/NodeDemo/express/node_modules/connect-form/node_modules/formidable
+info build /Users/xhowhy/project/NodeDemo/express/node_modules/connect-form/node_modules/formidable
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/connect-form/node_modules/formidable/package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   '/Users/xhowhy/project/NodeDemo/express/node_modules/connect-form/node_modules' ]
+info linkStuff formidable@1.0.11
+verbose linkBins formidable@1.0.11
+verbose linkMans formidable@1.0.11
+verbose rebuildBundles formidable@1.0.11
+info install formidable@1.0.11
+info postinstall formidable@1.0.11
+verbose about to build /Users/xhowhy/project/NodeDemo/express/node_modules/connect-form
+info build /Users/xhowhy/project/NodeDemo/express/node_modules/connect-form
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/connect-form/package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   '/Users/xhowhy/project/NodeDemo/express/node_modules' ]
+info linkStuff connect-form@0.2.1
+verbose linkBins connect-form@0.2.1
+verbose linkMans connect-form@0.2.1
+verbose rebuildBundles connect-form@0.2.1
+verbose rebuildBundles [ 'formidable' ]
+info install connect-form@0.2.1
+info postinstall connect-form@0.2.1
+http 200 http://registry.npmjs.vitecho.com/hiredis
+silly get cb [ 200,
+silly get cb   { server: 'nginx/1.0.14',
+silly get cb     date: 'Sat, 09 Jun 2012 15:09:27 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     vary: 'Accept',
+silly get cb     etag: '"97PXT36E97GQA0DWWTZ9YM9RT"',
+silly get cb     'content-length': '9853' } ]
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/.npm/hiredis'
+verbose mkdir done: /Users/xhowhy/.npm/hiredis 755
+silly name, range, hasData 2 [ 'hiredis', '', true ]
+silly versions [ 'hiredis',
+silly versions   [ '0.1.0',
+silly versions     '0.1.1',
+silly versions     '0.1.2',
+silly versions     '0.1.3',
+silly versions     '0.1.4',
+silly versions     '0.1.5',
+silly versions     '0.1.6',
+silly versions     '0.1.8',
+silly versions     '0.1.9',
+silly versions     '0.1.10',
+silly versions     '0.1.12',
+silly versions     '0.1.13',
+silly versions     '0.1.14' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.24-darwin-x64-11.2.0',
+verbose bin dist   { shasum: '37a8742dc26c14a7be8cf69549d96781403188b2',
+verbose bin dist     tarball: 'http://registry.npmjs.vitecho.com/hiredis/-/hiredis-0.1.14.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.vitecho.com/hiredis/-/hiredis-0.1.14.tgz',
+verbose addRemoteTarball   '37a8742dc26c14a7be8cf69549d96781403188b2' ]
+verbose mkdir (expected) error ENOENT, stat '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254567163-0.8866760071832687'
+verbose mkdir done: /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254567163-0.8866760071832687 755
+verbose fetch to /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254567163-0.8866760071832687/tmp.tgz
+http GET http://registry.npmjs.vitecho.com/hiredis/-/hiredis-0.1.14.tgz
+verbose gunzed /Users/xhowhy/.npm/cssom/0.2.0/package
+verbose caching /Users/xhowhy/.npm/cssom/0.2.0/package/package.json
+verbose loadDefaults cssom@0.2.0
+silly updated sha bytes 39578
+info shasum bc8cd0afadec788f914ee775d77f3975934a78c1
+info shasum /Users/xhowhy/.npm/cssom/0.2.0/package.tgz
+verbose from cache /Users/xhowhy/.npm/cssom/0.2.0/package/package.json
+verbose chmod /Users/xhowhy/.npm/cssom/0.2.0/package.tgz 644
+verbose chown [ '/Users/xhowhy/.npm/cssom/0.2.0/package.tgz', 501, 20 ]
+silly resolved [ { name: 'growl',
+silly resolved     version: '1.1.0',
+silly resolved     description: 'Growl unobtrusive notifications',
+silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly resolved     main: './lib/growl.js',
+silly resolved     _id: 'growl@1.1.0',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.12',
+silly resolved     _nodeVersion: 'v0.6.14',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'c6c7ebafdaf0d5a9b1244d158be8f24bc5e4addb' },
+silly resolved     _from: 'growl@1.1.0',
+silly resolved     scripts: {} },
+silly resolved   { name: 'cssom',
+silly resolved     description: 'CSS Object Model implementation and CSS parser',
+silly resolved     keywords: [ 'CSS', 'CSSOM', 'parser', 'styleSheet' ],
+silly resolved     version: '0.2.0',
+silly resolved     homepage: 'https://github.com/NV/CSSOM',
+silly resolved     author: { name: 'Nikita Vasilyev', email: 'me@elv1s.ru' },
+silly resolved     repository: { type: 'git', url: 'git://github.com/NV/CSSOM.git' },
+silly resolved     bugs: { url: 'https://github.com/NV/CSSOM/issues' },
+silly resolved     directories: { doc: './doc', lib: './lib', test: './test' },
+silly resolved     main: './lib/index.js',
+silly resolved     engines: { node: '>=0.2.0' },
+silly resolved     licenses: [ { type: 'MIT', url: 'http://creativecommons.org/licenses/MIT/' } ],
+silly resolved     _id: 'cssom@0.2.0',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.12',
+silly resolved     _nodeVersion: 'v0.6.14',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'bc8cd0afadec788f914ee775d77f3975934a78c1' },
+silly resolved     _from: 'cssom@0.2.0',
+silly resolved     scripts: {} } ]
+info into /Users/xhowhy/project/NodeDemo/express/node_modules/stylus growl@1.1.0
+info into /Users/xhowhy/project/NodeDemo/express/node_modules/stylus cssom@0.2.0
+info installOne growl@1.1.0
+info installOne cssom@0.2.0
+verbose from cache /Users/xhowhy/.npm/growl/1.1.0/package/package.json
+info unbuild /Users/xhowhy/project/NodeDemo/express/node_modules/stylus/node_modules/growl
+verbose from cache /Users/xhowhy/.npm/cssom/0.2.0/package/package.json
+info unbuild /Users/xhowhy/project/NodeDemo/express/node_modules/stylus/node_modules/cssom
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules/stylus/node_modules'
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules/stylus/node_modules'
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules/stylus/node_modules/growl'
+verbose mkdir done: /Users/xhowhy/project/NodeDemo/express/node_modules/stylus/node_modules/growl 755
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules/stylus/node_modules/cssom'
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/xhowhy/project/NodeDemo/express/node_modules/stylus/node_modules/growl
+silly gunzTarPerm modes [ '755', '644' ]
+verbose mkdir done: /Users/xhowhy/project/NodeDemo/express/node_modules/stylus/node_modules/cssom 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/xhowhy/project/NodeDemo/express/node_modules/stylus/node_modules/cssom
+silly gunzTarPerm modes [ '755', '644' ]
+verbose gunzed /Users/xhowhy/project/NodeDemo/express/node_modules/stylus/node_modules/growl
+verbose caching /Users/xhowhy/project/NodeDemo/express/node_modules/stylus/node_modules/growl/package.json
+verbose loadDefaults growl@1.1.0
+http 200 http://registry.npmjs.vitecho.com/hiredis/-/hiredis-0.1.14.tgz
+info preinstall growl@1.1.0
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/stylus/node_modules/growl/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/stylus/node_modules/growl/package.json
+verbose readDependencies: using package.json deps
+silly resolved []
+verbose about to build /Users/xhowhy/project/NodeDemo/express/node_modules/stylus/node_modules/growl
+info build /Users/xhowhy/project/NodeDemo/express/node_modules/stylus/node_modules/growl
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/stylus/node_modules/growl/package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   '/Users/xhowhy/project/NodeDemo/express/node_modules/stylus/node_modules' ]
+info linkStuff growl@1.1.0
+verbose linkBins growl@1.1.0
+verbose linkMans growl@1.1.0
+verbose rebuildBundles growl@1.1.0
+info install growl@1.1.0
+info postinstall growl@1.1.0
+silly updated sha bytes 40960
+silly updated sha bytes 5391
+info shasum 37a8742dc26c14a7be8cf69549d96781403188b2
+info shasum /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254567163-0.8866760071832687/tmp.tgz
+verbose mkdir (expected) error ENOENT, stat '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254567163-0.8866760071832687/package'
+verbose mkdir done: /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254567163-0.8866760071832687/package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254567163-0.8866760071832687/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose gunzed /Users/xhowhy/project/NodeDemo/express/node_modules/stylus/node_modules/cssom
+verbose caching /Users/xhowhy/project/NodeDemo/express/node_modules/stylus/node_modules/cssom/package.json
+verbose loadDefaults cssom@0.2.0
+info preinstall cssom@0.2.0
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/stylus/node_modules/cssom/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/stylus/node_modules/cssom/package.json
+verbose readDependencies: using package.json deps
+silly resolved []
+verbose about to build /Users/xhowhy/project/NodeDemo/express/node_modules/stylus/node_modules/cssom
+info build /Users/xhowhy/project/NodeDemo/express/node_modules/stylus/node_modules/cssom
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/stylus/node_modules/cssom/package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   '/Users/xhowhy/project/NodeDemo/express/node_modules/stylus/node_modules' ]
+info linkStuff cssom@0.2.0
+verbose linkBins cssom@0.2.0
+verbose linkMans cssom@0.2.0
+verbose rebuildBundles cssom@0.2.0
+info install cssom@0.2.0
+info postinstall cssom@0.2.0
+verbose about to build /Users/xhowhy/project/NodeDemo/express/node_modules/stylus
+info build /Users/xhowhy/project/NodeDemo/express/node_modules/stylus
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/stylus/package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   '/Users/xhowhy/project/NodeDemo/express/node_modules' ]
+info linkStuff stylus@0.13.0
+verbose linkBins stylus@0.13.0
+verbose bins linking [ { stylus: './bin/stylus' },
+verbose bins linking   '/Users/xhowhy/project/NodeDemo/express/node_modules/.bin',
+verbose bins linking   false ]
+verbose linkMans stylus@0.13.0
+verbose rebuildBundles stylus@0.13.0
+verbose rebuildBundles [ 'cssom', 'growl' ]
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules/.bin'
+verbose mkdir done: /Users/xhowhy/project/NodeDemo/express/node_modules/.bin 755
+info install stylus@0.13.0
+info postinstall stylus@0.13.0
+verbose gunzed /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254567163-0.8866760071832687/package
+verbose has wscript [ undefined,
+verbose has wscript   { file: '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254567163-0.8866760071832687/package/package.json',
+verbose has wscript     gypfile: false,
+verbose has wscript     contributors: false,
+verbose has wscript     serverjs: false,
+verbose has wscript     wscript: true } ]
+verbose caching /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254567163-0.8866760071832687/package/package.json
+verbose loadDefaults hiredis@0.1.14
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254567163-0.8866760071832687/package/package.json
+verbose pack /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254567163-0.8866760071832687/package
+verbose pack /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254567163-0.8866760071832687/package /Users/xhowhy/.npm/hiredis/0.1.14/package.tgz
+silly makeList /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254567163-0.8866760071832687/package
+silly dir, dirLen [ '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254567163-0.8866760071832687/package',
+silly dir, dirLen   108 ]
+verbose tarball /Users/xhowhy/.npm/hiredis/0.1.14/package.tgz
+verbose parent /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254567163-0.8866760071832687/package
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/.npm/hiredis/0.1.14/package'
+verbose mkdir done: /Users/xhowhy/.npm/hiredis/0.1.14/package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/xhowhy/.npm/hiredis/0.1.14/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose gunzed /Users/xhowhy/.npm/hiredis/0.1.14/package
+verbose has wscript [ undefined,
+verbose has wscript   { file: '/Users/xhowhy/.npm/hiredis/0.1.14/package/package.json',
+verbose has wscript     gypfile: false,
+verbose has wscript     contributors: false,
+verbose has wscript     serverjs: false,
+verbose has wscript     wscript: true } ]
+verbose caching /Users/xhowhy/.npm/hiredis/0.1.14/package/package.json
+verbose loadDefaults hiredis@0.1.14
+silly updated sha bytes 40960
+silly updated sha bytes 5402
+info shasum 4a7b1792d45d359ab1373e384f564451a4454a85
+info shasum /Users/xhowhy/.npm/hiredis/0.1.14/package.tgz
+verbose from cache /Users/xhowhy/.npm/hiredis/0.1.14/package/package.json
+verbose chmod /Users/xhowhy/.npm/hiredis/0.1.14/package.tgz 644
+verbose chown [ '/Users/xhowhy/.npm/hiredis/0.1.14/package.tgz', 501, 20 ]
+silly resolved [ { name: 'hiredis',
+silly resolved     description: 'Wrapper for reply processing code in hiredis',
+silly resolved     version: '0.1.14',
+silly resolved     homepage: 'http://github.com/pietern/hiredis-node',
+silly resolved     author: { name: 'Pieter Noordhuis', email: 'pcnoordhuis@gmail.com' },
+silly resolved     main: 'hiredis',
+silly resolved     directories: { lib: '.' },
+silly resolved     scripts: { preinstall: 'make || gmake', test: 'node test/reader.js' },
+silly resolved     engines: { node: '*' },
+silly resolved     _id: 'hiredis@0.1.14',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.12',
+silly resolved     _nodeVersion: 'v0.6.14',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '4a7b1792d45d359ab1373e384f564451a4454a85' },
+silly resolved     _from: 'hiredis@*' } ]
+info into /Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis/node_modules/redis hiredis@0.1.14
+info installOne hiredis@0.1.14
+verbose from cache /Users/xhowhy/.npm/hiredis/0.1.14/package/package.json
+info unbuild /Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis/node_modules/redis/node_modules/hiredis
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis/node_modules/redis/node_modules'
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis/node_modules/redis/node_modules/hiredis'
+verbose mkdir done: /Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis/node_modules/redis/node_modules/hiredis 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis/node_modules/redis/node_modules/hiredis
+silly gunzTarPerm modes [ '755', '644' ]
+verbose gunzed /Users/xhowhy/project/NodeDemo/express/node_modules/jade
+verbose caching /Users/xhowhy/project/NodeDemo/express/node_modules/jade/package.json
+verbose loadDefaults jade@0.16.2
+info preinstall jade@0.16.2
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/jade/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/jade/package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'commander@0.1.0', null ]
+silly cache add: name, spec, args [ undefined, 'commander@0.1.0', [ 'commander@0.1.0', null ] ]
+verbose parsed url { pathname: 'commander@0.1.0',
+verbose parsed url   path: 'commander@0.1.0',
+verbose parsed url   href: 'commander@0.1.0' }
+silly cache add: name, spec, args [ 'commander', '0.1.0', [ 'commander', '0.1.0' ] ]
+verbose parsed url { pathname: '0.1.0', path: '0.1.0', href: '0.1.0' }
+verbose addNamed [ 'commander', '0.1.0' ]
+verbose addNamed [ '0.1.0', '0.1.0' ]
+verbose raw, before any munging commander/0.1.0
+verbose url resolving [ 'http://registry.npmjs.vitecho.com/', './commander/0.1.0' ]
+verbose url resolved http://registry.npmjs.vitecho.com/commander/0.1.0
+http GET http://registry.npmjs.vitecho.com/commander/0.1.0
+verbose gunzed /Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis/node_modules/redis/node_modules/hiredis
+verbose has wscript [ undefined,
+verbose has wscript   { file: '/Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis/node_modules/redis/node_modules/hiredis/package.json',
+verbose has wscript     gypfile: false,
+verbose has wscript     contributors: false,
+verbose has wscript     serverjs: false,
+verbose has wscript     wscript: true } ]
+verbose caching /Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis/node_modules/redis/node_modules/hiredis/package.json
+verbose loadDefaults hiredis@0.1.14
+info preinstall hiredis@0.1.14
+verbose unsafe-perm in lifecycle true
+silly exec sh "-c" "make || gmake"
+silly spawning [ 'sh',
+silly spawning   [ '-c', 'make || gmake' ],
+silly spawning   '/Users/xhowhy/project/NodeDemo/express/node_modules/connect-redis/node_modules/redis/node_modules/hiredis' ]
+http 200 http://registry.npmjs.vitecho.com/commander/0.1.0
+silly get cb [ 200,
+silly get cb   { server: 'nginx/1.0.14',
+silly get cb     date: 'Sat, 09 Jun 2012 15:09:27 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     vary: 'Accept',
+silly get cb     etag: '"36SHCTL4FO08YHS5CN3GZ87C2"',
+silly get cb     'content-length': '822' } ]
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/.npm/commander/0.1.0'
+verbose mkdir done: /Users/xhowhy/.npm/commander/0.1.0 755
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.24-darwin-x64-11.2.0',
+verbose bin dist   { shasum: '4f1b767116853b659106f9cf5897c8bac2c189b2',
+verbose bin dist     tarball: 'http://registry.npmjs.vitecho.com/commander/-/commander-0.1.0.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.vitecho.com/commander/-/commander-0.1.0.tgz',
+verbose addRemoteTarball   '4f1b767116853b659106f9cf5897c8bac2c189b2' ]
+verbose mkdir (expected) error ENOENT, stat '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254567801-0.173989562317729'
+verbose mkdir done: /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254567801-0.173989562317729 755
+verbose fetch to /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254567801-0.173989562317729/tmp.tgz
+http GET http://registry.npmjs.vitecho.com/commander/-/commander-0.1.0.tgz
+http 200 http://registry.npmjs.vitecho.com/commander/-/commander-0.1.0.tgz
+silly updated sha bytes 9612
+info shasum 4f1b767116853b659106f9cf5897c8bac2c189b2
+info shasum /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254567801-0.173989562317729/tmp.tgz
+verbose mkdir (expected) error ENOENT, stat '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254567801-0.173989562317729/package'
+verbose mkdir done: /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254567801-0.173989562317729/package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254567801-0.173989562317729/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose gunzed /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254567801-0.173989562317729/package
+verbose caching /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254567801-0.173989562317729/package/package.json
+verbose loadDefaults commander@0.1.0
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254567801-0.173989562317729/package/package.json
+verbose pack /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254567801-0.173989562317729/package
+verbose pack /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254567801-0.173989562317729/package /Users/xhowhy/.npm/commander/0.1.0/package.tgz
+silly makeList /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254567801-0.173989562317729/package
+silly dir, dirLen [ '/var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254567801-0.173989562317729/package',
+silly dir, dirLen   107 ]
+verbose tarball /Users/xhowhy/.npm/commander/0.1.0/package.tgz
+verbose parent /var/folders/dk/vj01y2956ps_bfhqm4nc673c0000gn/T/npm-1339254534814/1339254567801-0.173989562317729/package
+verbose mkdir (expected) error ENOENT, stat '/Users/xhowhy/.npm/commander/0.1.0/package'
+verbose mkdir done: /Users/xhowhy/.npm/commander/0.1.0/package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/xhowhy/.npm/commander/0.1.0/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose gunzed /Users/xhowhy/.npm/commander/0.1.0/package
+verbose caching /Users/xhowhy/.npm/commander/0.1.0/package/package.json
+verbose loadDefaults commander@0.1.0
+silly updated sha bytes 8013
+info shasum 548d0bd08f79a7dd9f61101d6b62338fe37ee041
+info shasum /Users/xhowhy/.npm/commander/0.1.0/package.tgz
+verbose from cache /Users/xhowhy/.npm/commander/0.1.0/package/package.json
+verbose chmod /Users/xhowhy/.npm/commander/0.1.0/package.tgz 644
+verbose chown [ '/Users/xhowhy/.npm/commander/0.1.0/package.tgz', 501, 20 ]
+silly resolved [ { name: 'commander',
+silly resolved     version: '0.1.0',
+silly resolved     description: 'the complete solution for node.js command-line programs',
+silly resolved     keywords: [ 'command', 'option', 'parser', 'prompt', 'stdin' ],
+silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly resolved     dependencies: {},
+silly resolved     devDependencies: { should: '>= 0.0.1' },
+silly resolved     main: 'index',
+silly resolved     engines: { node: '0.4.x' },
+silly resolved     _id: 'commander@0.1.0',
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: false,
+silly resolved     _npmVersion: '1.1.12',
+silly resolved     _nodeVersion: 'v0.6.14',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '548d0bd08f79a7dd9f61101d6b62338fe37ee041' },
+silly resolved     _from: 'commander@0.1.0' } ]
+info into /Users/xhowhy/project/NodeDemo/express/node_modules/jade commander@0.1.0
+info installOne commander@0.1.0
+verbose about to build /Users/xhowhy/project/NodeDemo/express/node_modules/jade
+info unbuild /Users/xhowhy/project/NodeDemo/express/node_modules/jade
+verbose from cache /Users/xhowhy/project/NodeDemo/express/node_modules/jade/package.json
+info preuninstall jade@0.16.2
+info uninstall jade@0.16.2
+verbose unbuild jade@0.16.2 [ true,
+verbose unbuild jade@0.16.2   '/Users/xhowhy/project/NodeDemo/express/node_modules',
+verbose unbuild jade@0.16.2   '/Users/xhowhy/project/NodeDemo/express/node_modules' ]
+verbose binRoot [ '/Users/xhowhy/project/NodeDemo/express/node_modules/.bin',
+verbose binRoot   { jade: './bin/jade' } ]
+info postuninstall jade@0.16.2
+ERR! Unsupported
+ERR! Not compatible with your version of node/npm: commander@0.1.0
+ERR! Required: {"node":"0.4.x"}
+ERR! Actual:   {"npm":"1.1.12","node":"0.6.14"}
+ERR! 
+ERR! System Darwin 11.2.0
+ERR! command "node" "/usr/local/bin/npm" "install"
+ERR! cwd /Users/xhowhy/project/NodeDemo/express
+ERR! node -v v0.6.14
+ERR! npm -v 1.1.12
+ERR! code ENOTSUP
+ERR! message Unsupported
+ERR! errno {}
+verbose exit [ 1, true ]
