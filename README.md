@@ -28,7 +28,7 @@
 
 ### 安装方法
 1. 下载并安装 [Node.js环境](http://nodejs.org)
-2. 下载 [NodeDemo.7z](http://demo.tmall.net/u/fanyu/NodeDemo.7z) 压缩包并解压
+2. 下载 [NodeDemo.zip](http://demo.tmall.net/u/fanyu/NodeDemo.zip) 压缩包并解压
 3. 打开解压目录中的config.js，配置`DocumentRoot`为你的网站根目录（wwwroot）
 4. 切换到解压目录运行`run.sh`（*nix环境）或者`run.bat`(Windows环境)
 
