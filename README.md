@@ -19,7 +19,7 @@
 
 ### 访问方式（Beta）
 1. Demo服务器通过`http://demo.tmall.net:3000+文件路径`访问
-2. 本地环境通过`http://local.tmall.net:3000+文件路径`访问（可自己配置端口号）
+2. 本地环境通过`http://local.tmall.net:3000+文件路径`访问（可自己配置端口号）  
 ####访问示例
 [http://demo.tmall.net:3000/u/fanyu/example.html?itemId=00001&cateId=10000](http://demo.tmall.net:3000/u/fanyu/example.html?itemId=00001&cateId=10000)
 
