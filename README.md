@@ -27,8 +27,8 @@
 
 
 ### 安装方法
-1. 下载并安装Node.js环境
-2. 下载NodeDemo.zip压缩包并解压缩
+1. 下载并安装 [Node.js环境](http://nodejs.org)
+2. 下载 [NodeDemo.7z](http://demo.tmall.net/u/fanyu/NodeDemo.7z) 压缩包并解压
 3. 打开解压目录中的config.js，配置`DocumentRoot`为你的网站根目录（wwwroot）
 4. 切换到解压目录运行`run.sh`（*nix环境）或者`run.bat`(Windows环境)
 
@@ -44,10 +44,11 @@
 #####输出：用`<?= ?>`标签进行变量输出
 #####判断   
   	
-    	<? if(foo == bar){ ?
-    		<?=foo?>
-		<? }else{ ?
-			<p>foo is undefined</p>
+		<? var foo = 123; ?>
+		<? if(foo == 321){ ?>
+    	       <p>foo equal to bar</p>
+		   <? }else{ ?>
+		       <p>foo doesn't equal to bar</p>
 		<? } ?>
 #####循环遍历的N种写法
 ######普通青年写的循环遍历
@@ -67,6 +68,7 @@
 #####子模板包含
 
 		<?-partial('../header.html')?>
+		<?-partial('../footer.html')?>
 		<?-partial('menu.html', {menus: data.menus})?>
 #####输出JSON格式
 		<?=JSON.stringify(__request)?>
@@ -88,11 +90,11 @@
 
 * `__session` : 对应PHP中的`$_SESSION`全局变量
 
-* `__url` ： 当前页面的URL，例如：`http://local.tmall.net:3000/u/fanyu/example.html?itemId=123`
+* `__url` ： 当前请求的URL，例如：`http://local.tmall.net:3000/u/fanyu/example.html?itemId=123`
 
-* `__urlpath` ： 当前页面所在的目录URL 例如：`http://local.tmall.net:3000/u/fanyu/` 
+* `__script` ： 当前请求的页面地址，不含queryString 
 
-* `__sourcepath` ： 不含端口号的`__urlpath` 
+* `__pathinfo` ： 当前页面所在的目录URL 例如：`http://local.tmall.net:3000/u/fanyu/` 
 
 * `__filename` : 当前执行的文件的文件名（含路径）
 

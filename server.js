@@ -41,7 +41,7 @@ app.dynamicHelpers({
 		return req.cookies
 	},
 	__request: function(req, res){
-		mix(req.query, req.body, req.cookies)
+		return mix(req.query, req.body, req.cookies)
 	},
 	__session: function(req, res){
 		return req.session;
@@ -51,9 +51,15 @@ app.dynamicHelpers({
 	}
 });
 
+
+
 app.helpers({
 	"require": require,
     _: require('underscore')
+});
+
+app.get('/', function(req, res){
+	res.render('u/fanyu/README.html');
 });
 
 var reg = '/', ftypes = C.FilterType;
@@ -63,15 +69,12 @@ ftypes.forEach(function(s){
 reg = reg.slice(0, reg.length-1);
 reg += '/';
 
-app.get('/', function(req, res){
-	res.render('u/fanyu/README.html');
-});
-
 app.all(new RegExp(reg), function(req, res){
 
-	var layout = url.parse(req.url).pathname.slice(1);
-	var __url = 'http://'+req.headers.host + req.originalUrl,
-		__urlpath = __url.slice(0, __url.lastIndexOf('/')),
+	var layout = url.parse(req.url).pathname.slice(1),
+		__host = req.headers.host;
+		__url = req.url,
+		__pathinfo = __url.slice(0, __url.lastIndexOf('/')),
 		__file = C.DocumentRoot + req.url.split('?')[0],
 		__dir = __file.slice(0, __file.lastIndexOf('/'));
 
@@ -79,8 +82,11 @@ app.all(new RegExp(reg), function(req, res){
 		'res': res,
 		'app': app,
 		'__url': __url,
-		'__urlpath': __urlpath,
-		'__sourcepath': __urlpath.replace(/\:\d+?\//, '/'),
+		'__pathinfo': __pathinfo,
+		'__host': __host,
+		'__hostname': __host.split(':')[0],
+		'__port': __host.split(':').length ? __host.split(':')[1] : 80,
+		'__script': __url.split('?')[0],
 		'__dirname': __dir,
 		'__filename': __file
 	}));
