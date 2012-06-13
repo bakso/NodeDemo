@@ -2,8 +2,8 @@
 
 ## 简介
 * **NodeDemo**是一个简单易用的、基于 Node.js 的多人前端Demo开发环境。
-* 支持同时使用JS和**Velocity**进行模板开发，提高前后端协同效率。
-* 目前已支持的**Velocity**语法包括`#set`、`#if`、`#foreach`、`#request.getParameter()`等，计划在今年充分发挥JS动态语言的高效，低成本地打造一个高效可用的前端Demo环境。
+* 支持同时使用JS和**Velocity**进行模板开发，前端工程师能直接产出的vm，提高前后端协同效率。
+* 目前已支持的**Velocity**语法包括`#set`、`#if`、`#foreach`、`#request.getParameter()`等，计划充分发挥JS动态语言的高效，低成本地打造一个高效可用的前端Demo环境。
 * [GitHub项目地址](https://github.com/xhowhy/NodeDemo)
 
 ---------
