@@ -17,7 +17,8 @@ var path = require('path')
   , fs = require('fs')
   , stat = fs.statSync
   , jschardet = require("jschardet")
-  , iconv = require('iconv-lite');
+  , iconv = require('iconv-lite')
+  , velocity = require('../../../velocity');
 
 /**
  * Expose `View`.
@@ -128,7 +129,7 @@ View.prototype.__defineGetter__('contents', function(){
   }else if(encoding == 'gb2312'){
     buf = iconv.decode(buf, 'gb2312');
   }
-  return iconv.encode(buf, 'utf-8').toString();
+  return velocity.parse(iconv.encode(buf, 'utf-8').toString());
 });
 
 /**
