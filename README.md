@@ -2,8 +2,8 @@
 
 ## 简介
 * **NodeDemo**是一个简单易用的、基于 Node.js 的多人前端Demo开发环境。
-* 目前已支持了**Velocity**的基本语法，计划将来能与后台模板体系无缝对接
-* 如果你用PHP写Demo写腻了，或者你想在工作中找点乐子又不知从何下手，不妨来体验一把 Node.js 式的Web后端开发，你能在享受开发的同时学习一门新技术。
+* 支持同时使用JS和**Velocity**进行模板开发，提高前后端协同效率。
+* 目前已支持的**Velocity**语法包括`#set`、`#if`、`#foreach`、`#request.getParameter()`等，计划在今年充分发挥JS动态语言的高效，低成本地打造一个高效可用的前端Demo环境。
 * [GitHub项目地址](https://github.com/xhowhy/NodeDemo)
 
 ---------
@@ -13,7 +13,7 @@
 
 * NodeDemo环境的动态页面文件扩展名可以是`.html, .htm, .node, .json`——但不能是`.php`
 * 动态页面中通过`<? ?>`标签嵌入`Javascript`代码而不是`PHP`
-* NodeDemo动态页面除了支持js，还支持Velocity的基本语法
+* NodeDemo动态页面除了支持js，还支持Velocity语法
 * NodeDemo环境基于Node.js环境，安装过程非常简单，基本不需要配置。
 
 ---------------
@@ -52,6 +52,15 @@
 		   <? }else{ ?>
 		       <p>foo doesn't equal to bar</p>
 		<? } ?>
+		
+		//或者
+		#set($foo = 321)
+		#if($foo == 321)
+		<p>foo equal to bar</p>
+		#else
+		<p>foo doesn't equal to bar</p>
+		#end
+</div>
 #####循环遍历的N种写法
 ######普通青年写的循环遍历
 		<? for(var i = 0; i < items.length; i++){ ?>
@@ -60,13 +69,20 @@
 ######XX青年写的循环遍历…
 		<ul>
 			<?
-			[1,2,3,4,5].forEach(function(v,k){
+			_.each([1,2,3,4,5], function(v,k){
 			?>
 			<li>
 				arr[<?=k?>]的值是<?=v?>
 			</li>
 			<? }) ?>
 		</ul>				
+######爱工作的好青年写的循环遍历…
+    	#foreach($i in $arr)
+    	<li>
+        	${velocityCount}=${i}
+    	</li>
+    	#end
+
 #####子模板包含
 
 		<?-partial('../header.html')?>
@@ -81,6 +97,8 @@
 
 ### 系统全局变量  
 系统全局变量可以使用在动态页面中的任意位置，例如你可以用`<?=__get.itemId?>`获取并输出URL中的`itemId`参数。你也可以使用全局变量作判断、遍历等操作。
+
+* `$request.getParameter()`: 同Velocity中的`$request.getParameter`方法
 
 * `__get` : 对应PHP中的`$_GET`全局变量  
 

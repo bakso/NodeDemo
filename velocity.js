@@ -23,16 +23,17 @@ var velocityToEjs = (function(){
             str = str.replace(/if \((.+?)\)/g, function($, $1){
                 return 'if (' + $1.replace(/\$/g, '') + ')';
             });
-
-            //替换变量
-            str = str.replace(/\\*(\$\!*\{(\w+[\w\.\[\]\(\)\$\+]*)\})/g, function($, $1, $2){
-                if($[0] == '\\') return $1;
-                return '<?='+$2+'?>';
+            
+            //vm私有变量
+            str = str.replace(/request\.getParameter\((.+)\)/g, function($, $1){
+                return '__request['+$1+']';
             });
 
-            //vm私有变量
-            str = str.replace(/\$\!*\{*request\.getParameter\((.+)\)\}*/g, function($, $1){
-                return '<?=__request['+$1+']?>'
+
+            //替换变量
+            str = str.replace(/\\*(\$\!*\{(\w+[\w\.\[\]\(\)\$\+\'\']*)\})/g, function($, $1, $2){
+                if($[0] == '\\') return $1;
+                return '<?='+$2+'?>';
             });
 
             console.log(str);
